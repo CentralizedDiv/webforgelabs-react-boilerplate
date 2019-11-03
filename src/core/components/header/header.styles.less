@@ -1,0 +1,74 @@
+@import '../../utils/styles/mixins.less';
+
+.st-header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+  .st-context-select {
+    display: flex;
+    width: 580px;
+    height: 100%;
+
+    .st-context-select-company-property,
+    .st-context-select-season {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex: 1 0 50%;
+      border-right: 1px solid #e8eaed;
+      padding: 8px 8px;
+      max-width: 290px;
+      cursor: pointer;
+
+      &.st-context-select-season {
+        & > div {
+          width: 100%;
+          max-width: 266px;
+        }
+        .ant-skeleton-content .ant-skeleton-title {
+          width: 95%;
+          margin-top: 0px;
+        }
+      }
+
+      .st-context-select-company-property-names {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-left: 12px;
+
+        span {
+          .ellipsis(213px);
+        }
+      }
+
+      .sf-chevron-down {
+        font-size: 8px;
+        margin-top: 4px;
+      }
+
+      &:hover {
+        background-color: #f2f4f6;
+      }
+
+      &[class*='--clicked'] {
+        background-color: #f2f4f6;
+      }
+    }
+  }
+
+  .st-logout-button {
+    display: flex;
+  }
+
+  .st-weather-info {
+    align-self: center;
+  }
+
+  .st-header-buttons {
+    display: flex;
+    align-items: center;
+  }
+}

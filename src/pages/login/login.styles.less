@@ -1,0 +1,97 @@
+.st-login-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+
+  .st-login-page__login-form-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+
+    .login-form-container__form {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      .form__logo {
+        width: 115px;
+        margin-bottom: 40px;
+      }
+
+      .form__title {
+        margin-bottom: 4px;
+        color: @text-color;
+        font-size: 20px;
+      }
+
+      .form__subtitle {
+        color: @text-color-secondary;
+        margin-bottom: 32px;
+        font-size: 16px;
+      }
+
+      .form__inputs {
+        .inputs__button {
+          width: 100%;
+          height: 40px;
+        }
+        .inputs__forgot {
+          float: right;
+          color: @text-color-secondary;
+          cursor: pointer;
+
+          &:hover {
+            color: @primary-color;
+          }
+        }
+        & > .ant-form-item:nth-child(2) {
+          margin: 0;
+        }
+        .inputs__remember {
+          margin-bottom: 40px;
+        }
+      }
+    }
+
+    .login-form-container__footer {
+      position: absolute;
+      width: 100%;
+      bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: @text-color-secondary;
+      font-style: italic;
+
+      & > span {
+        margin-left: 4px;
+      }
+    }
+  }
+
+  .st-login-page__login-background {
+    flex: 0.5;
+    background-image: url('../../assets/images/bg-login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 50%;
+  }
+  .protector-logo {
+    text-align: right;
+    margin-top: 3vh;
+    padding-right: 5%;
+  }
+  .welcome-text {
+    font-size: 210px;
+    font-weight: 500;
+    line-height: 137px;
+    color: white;
+    margin-top: 64vh;
+    opacity: 0.2;
+    text-transform: uppercase;
+    user-select: none;
+  }
+}

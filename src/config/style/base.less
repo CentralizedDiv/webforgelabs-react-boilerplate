@@ -1,0 +1,80 @@
+@iterations: 5;
+
+.st-grid {
+  display: grid;
+}
+
+.grid-loop (@i) when (@i > 0) {
+  .st-grid--@{i} {
+    display: grid;
+    height: inherit;
+    grid-template-columns: repeat(~'@{i}', auto);
+  }
+  .st-grid-min--@{i} {
+    display: grid;
+    grid-template-columns: repeat(~'@{i}', min-content);
+  }
+  .st-grid-item-start--@{i} {
+    grid-column-start: @i;
+  }
+  .st-grid-item-end--@{i} {
+    grid-column-end: @i;
+  }
+  .st-grid-row--@{i} {
+    display: grid;
+    grid-template-rows: repeat(~'@{i}', auto);
+  }
+
+  .grid-loop(@i - 1);
+}
+
+.grid-loop (@iterations);
+
+@positions: start, end, center, left, right;
+.grid-align-loop (@positions, @i: 1) when (@i <= length(@positions)) {
+  @position: extract(@positions, @i);
+
+  .st-self-align--@{position} {
+    align-self: @position;
+  }
+  .st-self-justify--@{position} {
+    justify-self: @position;
+  }
+  .st-align-items--@{position} {
+    align-items: @position;
+  }
+  .st-justify-content--@{position} {
+    justify-content: @position;
+  }
+  .st-text-align--@{position} {
+    text-align: @position;
+  }
+
+  .grid-align-loop(@positions, @i + 1);
+}
+.grid-align-loop(@positions);
+
+.st-action {
+  cursor: pointer;
+
+  &-btn:hover {
+    cursor: pointer;
+    background-color: var(--pale-grey);
+  }
+
+  &-btn-reverse:hover {
+    cursor: pointer;
+    background-color: white;
+  }
+}
+
+.st-tag {
+  height: 16px !important;
+  display: flex !important;
+  padding: 0 4px !important;
+  align-items: center;
+}
+
+.st-default-line-height {
+  line-height: 14px;
+}

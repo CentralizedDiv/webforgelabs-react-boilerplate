@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarList renders properly 1`] = `
+<styled.div>
+  <Tooltip
+    arrowPointAtCenter={false}
+    autoAdjustOverflow={true}
+    key="José"
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    placement="top"
+    title="José"
+    transitionName="zoom-big-fast"
+  >
+    <STAvatar
+      key="José"
+      small={true}
+      style={
+        Object {
+          "marginRight": "4px",
+        }
+      }
+    >
+      JO
+    </STAvatar>
+  </Tooltip>
+  <Tooltip
+    arrowPointAtCenter={false}
+    autoAdjustOverflow={true}
+    key="Maria"
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    placement="top"
+    title="Maria"
+    transitionName="zoom-big-fast"
+  >
+    <STAvatar
+      key="Maria"
+      small={true}
+      style={
+        Object {
+          "marginRight": "4px",
+        }
+      }
+    >
+      MA
+    </STAvatar>
+  </Tooltip>
+  <Tooltip
+    arrowPointAtCenter={false}
+    autoAdjustOverflow={true}
+    key="Ana"
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    placement="top"
+    title="Ana"
+    transitionName="zoom-big-fast"
+  >
+    <STAvatar
+      key="Ana"
+      small={true}
+      style={
+        Object {
+          "marginRight": "4px",
+        }
+      }
+    >
+      AN
+    </STAvatar>
+  </Tooltip>
+</styled.div>
+`;

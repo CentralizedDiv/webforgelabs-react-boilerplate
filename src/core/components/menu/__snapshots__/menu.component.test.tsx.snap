@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`STMenu renders properly 1`] = `
+<div
+  className="st-menu"
+>
+  <img
+    alt="Protector Logo"
+    src="logo-protector-s.png"
+  />
+  <Menu
+    mode="inline"
+    selectedKeys={
+      Array [
+        "/undefined",
+      ]
+    }
+  >
+    <MenuItem
+      key="/sample-page-2"
+      title="pages.side_menu.hall_of_properties"
+    >
+      <div
+        className="st-menu-active"
+      />
+      <Icon />
+      <Link
+        to="/sample-page-2"
+      >
+        pages.side_menu.hall_of_properties
+      </Link>
+    </MenuItem>
+  </Menu>
+</div>
+`;

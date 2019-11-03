@@ -1,0 +1,76 @@
+.st-logout-popover {
+  min-width: 330px;
+
+  .ant-popover-inner {
+    border-radius: 8px;
+
+    .ant-popover-inner-content {
+      padding: 0;
+    }
+  }
+
+  .st-logout-popover-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px 0 16px;
+
+    img {
+      width: 100px;
+      margin-bottom: 4px;
+    }
+  }
+
+  .st-logout-popover-user {
+    border-bottom: 1px solid #f0f3f6;
+    padding: 0 0 8px;
+    cursor: pointer;
+
+    & > div {
+      display: flex;
+      align-items: center;
+      padding: 8px 16px;
+
+      .st-logout-popover-user-edit {
+        color: #c1c5c8;
+        .st-typo {
+          display: none;
+        }
+      }
+
+      &:hover {
+        background-color: #f2f4f6;
+
+        .st-logout-popover-user-edit {
+          color: @primary-color;
+          .st-typo {
+            display: inline;
+          }
+        }
+      }
+
+      .st-avatar {
+        flex: 1;
+      }
+
+      i {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .st-logout-popover-button {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    &:hover {
+      background-color: #f2f4f6;
+    }
+
+    button {
+      border: none;
+      text-align: left;
+      background: transparent;
+      height: 45px;
+    }
+  }
+}

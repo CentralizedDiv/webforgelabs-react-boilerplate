@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`STAvatar renders properly 1`] = `
+<div
+  className="st-avatar"
+  onClick={[Function]}
+>
+  <Avatar
+    shape="circle"
+    size={40}
+  >
+    <span />
+  </Avatar>
+</div>
+`;

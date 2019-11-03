@@ -1,0 +1,29 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-standard", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {
+    "object-literal-sort-keys": false,
+    "no-console": false
+  },
+  "rules": {
+    "member-access": false,
+    "variable-name": false,
+    "object-literal-sort-keys": false,
+    "interface-over-type-literal": false,
+    "jsx-no-lambda": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+    "text-out-of-pattern": true,
+    "no-var-keyword": true,
+    "no-parameter-reassignment": true,
+    "typedef": [true, "call-signature"],
+    "readonly-keyword": [true, { "ignore-prefix": "mutable" }],
+    "readonly-array": [true],
+    "no-delete": true,
+    "no-method-signature": true,
+    "no-this": true,
+    "no-class": true,
+    "no-console": false
+  }
+}

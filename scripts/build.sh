@@ -1,0 +1,1 @@
+docker build -t strider/protector/user-client-react:`cat ./src/VERSION` -f ./Dockerfile ./build

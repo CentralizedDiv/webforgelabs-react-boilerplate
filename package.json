@@ -1,0 +1,117 @@
+{
+  "name": "protector-user-client",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.19.1",
+    "axios": "^0.19.0",
+    "axios-observable": "^1.1.0",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^6.4.0",
+    "history": "^4.9.0",
+    "i18next": "^15.1.3",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "i18next-xhr-backend": "^2.0.1",
+    "js-cookie": "^2.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-i18next": "^10.10.0",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.1",
+    "redux-ngrx-entity": "^7.0.1",
+    "redux-observable": "^1.2.0",
+    "reselect": "^4.0.0",
+    "rxjs": "^6.5.2"
+  },
+  "scripts": {
+    "start": "env-cmd -f src/config/env/qa.env react-app-rewired start",
+    "start:local": "env-cmd -f src/config/env/local.env react-app-rewired start",
+    "start:staging": "env-cmd -f src/config/env/staging.env react-app-rewired start",
+    "start:prod": "env-cmd -f src/config/env/prod.env react-app-rewired start",
+    "start:qa": "yarn start",
+    "build": "env-cmd -f src/config/env/qa.env react-app-rewired build",
+    "build:local": "yarn lint && env-cmd -f src/config/env/local.env react-app-rewired build",
+    "build:staging": "env-cmd -f src/config/env/staging.env react-app-rewired build",
+    "build:prod": "yarn lint && env-cmd -f src/config/env/prod.env react-app-rewired build",
+    "build:qa": "yarn build",
+    "test": "react-app-rewired test",
+    "lint": "tslint 'src/**/*.{ts,tsx,js}' -p tsconfig.json",
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook",
+    "svgr": "svgr --replace-attr-values \"none=inherit\" -d src/st-protector-icons/ icons/"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!**/__stories__/**",
+      "!src/index.tsx/",
+      "!src/serviceWorker.tsx/",
+      "!src/st-protector-icons/**"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@hot-loader/react-dom": "^16.8.6",
+    "@storybook/addon-actions": "^5.2.3",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addon-notes": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/history": "^4.7.2",
+    "@types/jest": "24.0.13",
+    "@types/js-cookie": "^2.2.3",
+    "@types/node": "12.0.3",
+    "@types/react": "16.8.19",
+    "@types/react-dom": "16.8.4",
+    "@types/react-redux": "^7.0.9",
+    "@types/react-router": "^5.1.1",
+    "babel-loader": "8.0.5",
+    "babel-plugin-import": "^1.11.2",
+    "babel-plugin-styled-components": "^1.10.6",
+    "customize-cra": "^0.8.0",
+    "env-cmd": "^9.0.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.0",
+    "enzyme-to-json": "^3.4.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "less-vars-to-js": "^1.3.0",
+    "prettier": "^1.17.1",
+    "react-app-rewire-hot-loader": "^2.0.1",
+    "react-app-rewired": "^2.1.3",
+    "react-hot-loader": "^4.12.3",
+    "react-scripts": "3.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-react": "^4.1.0",
+    "typescript": "3.4.5"
+  }
+}

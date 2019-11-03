@@ -1,0 +1,90 @@
+@import '../../../config/style/theme.less';
+
+.st-avatar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: @font-family;
+  transition: color 0.5s ease;
+
+  &.st-avatar--with-label {
+    .st-avatar-label {
+      margin-left: 12px;
+    }
+  }
+
+  &.st-avatar--with-chevron {
+    .st-avatar-chevron {
+      transition: margin-left 0.5s ease;
+      font-size: 8px;
+      margin: 2px 0 0 5px;
+    }
+  }
+
+  &:hover,
+  &.st-avatar--clicked {
+    color: @primary-color;
+
+    .ant-avatar {
+      background-color: @avatar-background-color-hover;
+      border-color: @avatar-border-color-hover;
+      color: @avatar-text-color-hover;
+    }
+
+    &.st-avatar--with-chevron {
+      .st-avatar-chevron {
+        margin-left: 12px;
+      }
+    }
+  }
+
+  .ant-avatar {
+    background-color: @avatar-background-color;
+    border: 1px solid @avatar-border-color;
+    color: @avatar-text-color;
+    transition: color 0.5s ease;
+
+    &.ant-avatar-circle {
+      cursor: default;
+      font-size: 14px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      & .ant-avatar-string {
+        transform: none !important;
+      }
+    }
+  }
+}
+
+.st-avatar-2 {
+  display: flex;
+  align-items: center;
+  font-family: @font-family;
+  transition: color 0.5s ease;
+
+  &.st-avatar-2--with-label {
+    .st-avatar-label {
+      margin-left: 12px;
+    }
+  }
+
+  &.st-avatar-2--with-chevron {
+    .st-avatar-chevron {
+      transition: margin-left 0.5s ease;
+      font-size: 8px;
+      margin: 2px 0 0 5px;
+    }
+  }
+  .ant-avatar {
+    background-color: @avatar-background-color;
+    border: 1px solid @avatar-border-color;
+    color: @avatar-text-color;
+    transition: color 0.5s ease;
+
+    &.ant-avatar-circle {
+      font-size: 14px !important;
+    }
+  }
+}

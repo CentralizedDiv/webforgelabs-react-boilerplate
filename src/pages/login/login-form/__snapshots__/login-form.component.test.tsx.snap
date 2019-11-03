@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm renders properly 1`] = `
+<div
+  className="st-login-page__login-form-container"
+>
+  <div
+    className="login-form-container__form"
+  >
+    <div
+      className="form__title"
+    >
+      <span>
+        pages.login.title
+      </span>
+    </div>
+    <div
+      className="form__subtitle"
+    >
+      <span>
+        pages.login.subtitle
+      </span>
+    </div>
+    <Form(FormInputs) />
+  </div>
+</div>
+`;

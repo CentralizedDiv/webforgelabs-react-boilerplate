@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login renders properly 1`] = `
+<div
+  className="st-login-page"
+>
+  <LoginForm
+    LoginRequest={[MockFunction]}
+    error=""
+    isLoading={false}
+  />
+  <LoginBackground />
+  <AppVersion />
+</div>
+`;

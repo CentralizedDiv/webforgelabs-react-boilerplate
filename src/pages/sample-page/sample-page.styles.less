@@ -1,0 +1,71 @@
+.st-sample-page {
+  display: flex;
+  height: 100%;
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: center;
+
+  .st-list-of-companies {
+    width: 80%;
+
+    .st-list-of-companies__title {
+      display: block;
+      margin: 32px 0 20px 0;
+      font-size: 24px;
+    }
+
+    .st-company-card {
+      margin-bottom: 16px;
+      box-shadow: 0 4px 10px 0 rgba(37, 60, 83, 0.1);
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 16px;
+
+      &:hover {
+        box-shadow: 0 8px 16px 0 rgba(37, 60, 83, 0.1);
+      }
+
+      .st-company-card__season-info {
+        display: flex;
+        flex-direction: column;
+
+        .season-info__label {
+          font-size: 12px;
+          color: @text-color-secondary;
+          margin: 8px 0;
+          text-transform: uppercase;
+        }
+
+        .season-info__properties-info {
+          margin-bottom: 4px;
+          & > i {
+            margin-right: 8px;
+            font-size: 16px;
+          }
+        }
+
+        .season-info__hectares-and-crops-info {
+          display: flex;
+          justify-content: space-between;
+
+          & > div > i {
+            margin-right: 8px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .st-sample-page-skeleton {
+    width: 80%;
+    display: flex;
+
+    .ant-skeleton {
+      background-color: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+  }
+}

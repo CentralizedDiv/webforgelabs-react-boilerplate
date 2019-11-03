@@ -1,0 +1,212 @@
+[
+  {
+    "id": "5cfe9bd8b1e687d6beab11f8",
+    "name": "Boink",
+    "owner_id": "5cfe9bd859ecaa1d87da4262",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Soja",
+        "wk_slug": "soybeans"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd81c2124a0b94ac913",
+    "name": "Jetsilk",
+    "owner_id": "5cfe9bd878d83c163ad89926",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Milho",
+        "wk_slug": "corn"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd88c54dc995f45170c",
+    "name": "Uneeq",
+    "owner_id": "5cfe9bd8cc22b21dbd4e578b",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Soja",
+        "wk_slug": "soybeans"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd8a59b7462d04dc58a",
+    "name": "Quarx",
+    "owner_id": "5cfe9bd884353a1cd5e567b9",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Soja",
+        "wk_slug": "soybeans"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd869c412b0159a987f",
+    "name": "Mangelica",
+    "owner_id": "5cfe9bd8908ce4faa0c64499",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Milho",
+        "wk_slug": "corn"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd89e568b05b5486356",
+    "name": "Otherside",
+    "owner_id": "5cfe9bd84438e0abe1750407",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Cana de Açucar",
+        "wk_slug": "sugarcane"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd8c1dda1361374b123",
+    "name": "Grupoli",
+    "owner_id": "5cfe9bd85f007ebe26b81ccf",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Soja",
+        "wk_slug": "soybeans"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd8e4ccb335441d1946",
+    "name": "Elpro",
+    "owner_id": "5cfe9bd8ada8d1a8db1487eb",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Cana de Açucar",
+        "wk_slug": "sugarcane"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd871ef239304fb259d",
+    "name": "Diginetic",
+    "owner_id": "5cfe9bd890663e951b99e777",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Cana de Açucar",
+        "wk_slug": "sugarcane"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd89a89f81349a2d920",
+    "name": "Anixang",
+    "owner_id": "5cfe9bd8d674f0cabbd569eb",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Milho",
+        "wk_slug": "corn"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd891e1c6e8d0f7ab23",
+    "name": "Ovium",
+    "owner_id": "5cfe9bd8ab83c65bd0f9122d",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Cana de Açucar",
+        "wk_slug": "sugarcane"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd8fe207372eb53956c",
+    "name": "Geeky",
+    "owner_id": "5cfe9bd85c0644a3bac9d364",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Milho",
+        "wk_slug": "corn"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd8f9a67a7f3c596986",
+    "name": "Buzzworks",
+    "owner_id": "5cfe9bd8162291adf44ed7ec",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Soja",
+        "wk_slug": "soybeans"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd8913b83b8c540fc41",
+    "name": "Hydrocom",
+    "owner_id": "5cfe9bd84a14600f6876a292",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Cana de Açucar",
+        "wk_slug": "sugarcane"
+      }
+    ]
+  },
+  {
+    "id": "5cfe9bd804124d3af8728b17",
+    "name": "Jasper",
+    "owner_id": "5cfe9bd8472ad01f2d7bb526",
+    "property_count": 3,
+    "total_area": 123.4,
+    "crops": [
+      {
+        "id": "bf1ac975-482e-405d-a9f0-efe8ad7d7481",
+        "name": "Cana de Açucar",
+        "wk_slug": "sugarcane"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "atlascode.jira.workingSite": {
+    "baseUrlSuffix": "atlassian.net"
+  },
+  "atlascode.jira.workingProject": {
+    "id": "11821",
+    "name": "Protector 4.0",
+    "key": "P40"
+  }
+}

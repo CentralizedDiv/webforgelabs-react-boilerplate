@@ -1,0 +1,121 @@
+// Override antd classes here
+
+// Layout
+@layout-header-background: white;
+@layout-body-background: #f5f8fc;
+
+.ant-input {
+  height: 40px !important;
+}
+
+.ant-form-item-control {
+  line-height: 50px;
+}
+
+.ant-menu::before {
+  content: none;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: none !important;
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-inline {
+  width: 100% !important;
+}
+
+.ant-menu-item,
+.ant-menu-submenu-title {
+  & > span {
+    display: grid;
+    grid-template-columns: min-content auto;
+  }
+}
+
+.ant-menu > .ant-menu-item .anticon,
+.ant-menu > .ant-menu-submenu .anticon {
+  font-size: 24px !important;
+  &:first-child {
+    fill: #707374;
+    &:hover {
+      fill: #ffffff;
+    }
+  }
+}
+
+.ant-input-affix-wrapper .ant-input-prefix,
+.ant-input-affix-wrapper .ant-input-suffix {
+  color: #707374;
+  font-size: 18px;
+}
+
+.ant-layout-header {
+  line-height: 20px !important;
+  @layout-header-background: white;
+}
+
+.ant-popover-inner {
+  border-radius: 8px !important;
+}
+
+.ant-modal-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ant-btn-lg {
+  font-size: 14px !important;
+}
+
+.ant-modal-content {
+  border-radius: 8px !important;
+}
+
+.ant-avatar-string {
+  position: initial;
+}
+
+.ant-select-dropdown-menu-item:hover,
+.ant-select-tree-node-content-wrapper:hover,
+.ant-tree-node-content-wrapper:hover,
+.ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background-color: var(--pale-grey) !important;
+}
+
+.ant-tree li .ant-tree-node-content-wrapper {
+  width: calc(100% - 48px) !important;
+}
+
+.ant-select-dropdown-menu-item-selected {
+  font-weight: 500 !important;
+  background-color: var(--pale-grey) !important;
+}
+
+.ant-calendar-picker-input {
+  max-width: 248px;
+  background: white;
+  border: 1px solid #f2f4f6;
+  margin-left: 14px;
+}
+
+.ant-select-selection.ant-select-selection--single {
+  background-color: #f5f8fc;
+}
+
+.ant-input-group-addon {
+  min-width: 70px;
+  background-color: var(--addon-select);
+}
+
+.ant-calendar-picker-input {
+  background-color: #f5f8fc !important;
+}
+
+.highcharts-root {
+  font-family: 'Rubik', sans-serif !important;
+  color: @primary-color !important;
+  fill: @primary-color !important;
+}

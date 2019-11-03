@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`STTrigger renders properly 1`] = `
+<div
+  className="st-trigger st-trigger--collapsed"
+  onClick={[MockFunction]}
+>
+  <Icon
+    type="menu"
+  />
+  <span>
+    layout.expand_sider
+  </span>
+</div>
+`;

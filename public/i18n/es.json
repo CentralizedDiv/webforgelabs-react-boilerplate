@@ -1,0 +1,1043 @@
+{
+  "key_capitalize": "{{key, capitalize}}",
+  "general": {
+    "property_not_allowed": "Erro ao buscar dados, você pode não ter acesso a esta propriedade. Entre em contato com o suporte Strider se isso persistir, redirecionando",
+    "ellipsis": "Mostrar mais",
+    "welcome_text_first_line": "Wel",
+    "welcome_text_second_line": "come",
+    "context_select": {
+      "season_select": {
+        "show_seasons": "Exibir safras",
+        "select_all": "Selecionar todas",
+        "select_active": "Selecionar ativas",
+        "cancel": "Cancelar",
+        "save": "Salvar safras",
+        "active": "ATIVA"
+      }
+    },
+    "map": {
+      "loading": "Carregando regiões...",
+      "trackings": "trackings",
+      "applied_heatmap": "Heatmap aplicado",
+      "multilayer": {
+        "files": "Arquivos",
+        "heatmaps": "Mapas Protector",
+        "remove": "Remove Layer",
+        "heatmaps_title": "Mapas Protector",
+        "form": {
+          "severity_level": "Índice de Severidade",
+          "days_without_spray": "Dias sem aplicação",
+          "days_without_monitoring": "Dias sem monitoramento",
+          "heatmaps": "Mapas de calor",
+          "map_type": "Foco da exibição",
+          "heatmap_algorithm": "Tipo de mapa",
+          "select": "Selecionar",
+          "phenomenon": "Problema ou doença",
+          "indicator": "Indicador",
+          "export": "Exportar Mapa",
+          "histogram": "HISTOGRAMA",
+          "histogram_unit": "Área(ha)"
+        },
+        "farmshots": {
+          "settings": "Configurações",
+          "go_back": "Voltar",
+          "open_settings": "Configurar",
+          "cloud_cover_index": "Índice de nuvens abaixo de",
+          "cloud": "Nuvem",
+          "cloud_plural": "Nuvens",
+          "cloudWithCount": "Nuvens: {{count}}",
+          "scene": "{{count}} cena",
+          "scene_plural": "{{count}} cenas",
+          "algorithm": "Algoritmo",
+          "sources": "Fontes",
+          "time_range": "Período",
+          "inconsistent_opacity": "Valor de opacidade inconsistente, a opacidade de alguma cena foi modificada individualmente"
+        }
+      },
+      "choropleth": {
+        "days_without_spray": "DAYS WITHOUT SPRAY",
+        "days_without_monitoring": "Dias sem monitoramento",
+        "severity_level": "SEVERITY LEVEL",
+        "heatmap": "ÍNDICE DE SEVERIDADE",
+        "balance": "Balance",
+        "control": "Control",
+        "damage": "Damage"
+      },
+      "create_point": "Click map to create a point",
+      "delete_point": "Deletar o ponto",
+      "new_group": "Novo Grupo"
+    },
+    "region_tree": {
+      "placeholder": "Selecione as regiões..."
+    }
+  },
+  "units": {
+    "hectares": "{{hectares, hectares}}",
+    "date": "{{date, DD/MM/YYYY}}",
+    "number": "{{number, number}}",
+    "products": {
+      "VARIETY": "Variety",
+      "FUEL": "Fuel",
+      "PART": "Part",
+      "HERBICIDE": "Herbicide",
+      "FUNGICIDE": "Fungicide",
+      "FERTILIZER": "Fertilizer",
+      "GENERIC_PRODUCT": "Generic Product",
+      "PESTICIDE": "Pesticide",
+      "ADJUVANT": "Adjuvant",
+      "LUBRICANT": "Lubricant",
+      "INOCULANT": "Inoculant",
+      "INSECTICIDE": "Insecticide"
+    },
+    "measure": {
+      "KILOGRAMS": {
+        "name": "quilograma",
+        "name_plural": "quilograma",
+        "abbreviation": "kg"
+      },
+      "LITERS": {
+        "name": "litro",
+        "name_plural": "litros",
+        "abbreviation": "l"
+      },
+      "UNITS": {
+        "name": "unidade",
+        "name_plural": "unidades",
+        "abbreviation": "u"
+      },
+      "BOXS": {
+        "name": "caixa",
+        "name_plural": "caixas",
+        "abbreviation": "bx"
+      },
+      "SACK": {
+        "name": "saca",
+        "name_plural": "sacas",
+        "abbreviation": "sc"
+      },
+      "GALLONS": {
+        "name": "galão",
+        "name_plural": "galões",
+        "abbreviation": "gal"
+      },
+      "GRAMS": {
+        "name": "grama",
+        "name_plural": "grama",
+        "abbreviation": "g"
+      },
+      "TONNES": {
+        "name": "tonelada",
+        "name_plural": "toneladas",
+        "abbreviation": "t"
+      },
+      "MILLILITER": {
+        "name": "mililitro",
+        "name_plural": "mililitros",
+        "abbreviation": "ml"
+      },
+      "METERS": {
+        "name": "metro",
+        "name_plural": "metros",
+        "abbreviation": "m"
+      },
+      "OUNCES": {
+        "name": "onça",
+        "name_plural": "onças",
+        "abbreviation": "oz"
+      },
+      "POUNDS": {
+        "name": "libra",
+        "name_plural": "libras",
+        "abbreviation": "lb"
+      },
+      "PINTS": {
+        "name": "pint",
+        "name_plural": "pints",
+        "abbreviation": "pt"
+      },
+      "DOSE": {
+        "name": "dose",
+        "name_plural": "doses",
+        "abbreviation": "doses"
+      }
+    },
+    "time": {
+      "MILLISECOND": {
+        "name": "milisegundo",
+        "name_plural": "milisegundos",
+        "abbreviation": "ms"
+      },
+      "NANOSECOND": {
+        "name": "nanosegundo",
+        "name_plural": "nanosegundos",
+        "abbreviation": "ns"
+      },
+      "MICROSECOND": {
+        "name": "microsegundo",
+        "name_plural": "microsegundos",
+        "abbreviation": "μs"
+      },
+      "SECOND": {
+        "name": "segundo",
+        "name_plural": "microsegundos",
+        "abbreviation": "s"
+      },
+      "MINUTE": {
+        "name": "minuto",
+        "name_plural": "minutos",
+        "abbreviation": "m"
+      },
+      "HOUR": {
+        "name": "hora",
+        "name_plural": "horas",
+        "abbreviation": "h"
+      },
+      "DAY": {
+        "name": "dia",
+        "name_plural": "dias",
+        "abbreviation": "d"
+      },
+      "WEEK": {
+        "name": "semana",
+        "name_plural": "semanas",
+        "abbreviation": "S"
+      },
+      "MONTH": {
+        "name": "mês",
+        "name_plural": "meses",
+        "abbreviation": "M"
+      },
+      "YEAR": {
+        "name": "ano",
+        "name_plural": "anos",
+        "abbreviation": "A"
+      }
+    }
+  },
+  "entities": {
+    "property": {
+      "key": "propriedade",
+      "key_plural": "propriedades",
+      "keyWithCount": "{{count}} propriedade",
+      "keyWithCount_plural": "{{count}} propriedades"
+    },
+    "season": {
+      "key": "safra",
+      "key_plural": "safras",
+      "keyWithCount": "{{count}} safra",
+      "keyWithCount_plural": "{{count}} safras"
+    },
+    "crop": {
+      "key": "cultura",
+      "key_plural": "culturas",
+      "keyWithCount": "{{count}} cultura",
+      "keyWithCount_plural": "{{count}} culturas",
+      "label": "$t(entities.crop.types.{{crop}})",
+      "types": {
+        "corn": "Milho",
+        "sugarcane": "Cana de açucar",
+        "soybeans": "Soja"
+      }
+    }
+  },
+  "layout": {
+    "collapse_sider": "Fechar",
+    "expand_sider": "Expandir",
+    "logout_popover": {
+      "logged_as": "Logado como:",
+      "logout": "Sair do Protector",
+      "edit": "Editar"
+    },
+    "company_select": {
+      "go_to_property_hall": "Ir para o Hall de Propriedades"
+    },
+    "property_select": {
+      "go_to_company_hall": "Ir para o Hall de Empresas"
+    }
+  },
+  "alert": {
+    "login": {
+      "bad_credentials": {
+        "title": "Usuário ou senha inválidos",
+        "description": "Se o problema persistir, entre em contato com o suporte Strider"
+      }
+    }
+  },
+  "form": {
+    "username_input": "Nome de usuário ou e-mail",
+    "password_input": "Senha",
+    "remember_me": "Lembrar-me",
+    "forgot_password": "Esqueceu a senha?",
+    "signin_button": "Entrar"
+  },
+  "modals": {
+    "general": {
+      "cancel": "Cancelar",
+      "apply": "Aplicar"
+    },
+    "application-detail": {
+      "title": "Detalhes da Aplicação",
+      "phenological_stage": "Estádio fenológico",
+      "week": "Semana",
+      "start": "Início",
+      "finish": "Término",
+      "application_areas": "Area(s) de Aplicação",
+      "area": "Área(s)",
+      "application_area_total": "Total",
+      "products": {
+        "type": "Tipo",
+        "dose": "Dose",
+        "active_principles": "Princípio Ativo",
+        "total": "Quantidade Total",
+        "characteristic": "Característica",
+        "liters_per_ha": "L/ha"
+      },
+      "resume": {
+        "title": "Detalhes da Aplicação",
+        "flow": "Vazão",
+        "mode": "Modo de Aplicação",
+        "total": "Quantidade total",
+        "tank": "Tanques",
+        "total_per_tank": "Quantidade por tanque",
+        "volume_last_tank": "Volume do último tanque",
+        "reentry_period": "Período de reentrada",
+        "shortage_period": "Período de carência",
+        "liters_per_ha": "L/ha",
+        "liters": " Litros"
+      },
+      "table": {
+        "title": "Áreas",
+        "total_sprayed_area": "Área total/área aplicada",
+        "comparative": "Comparativo",
+        "sample_points": "pontos amostrais",
+        "columns": {
+          "name": "Nome",
+          "prev_average": "Média anterior",
+          "pos_average": "Média posterior"
+        }
+      }
+    },
+    "product_detail": {
+      "composition": "Composição",
+      "action_mode": "Modo de Ação",
+      "classification": {
+        "title": "Classificação",
+        "ambiental": "Meio Ambiente",
+        "corrosivity": "Corrosividade",
+        "flammability": "Inflamabilidade",
+        "formulation": "Formulação",
+        "toxicological": "Toxicológica"
+      },
+      "usage": {
+        "title": "Indicações de uso",
+        "dosage": "Dosagem",
+        "syrup": "Calda",
+        "ground": "Terrestre",
+        "aerial": "Aérea",
+        "interval": "Intervalo",
+        "application": "Aplicação",
+        "reapplication": "Dias para reaplicação",
+        "application_season": "Época de Aplicação"
+      }
+    },
+    "monitoring_point": {
+      "title": "Ponto amostral"
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "company_title": "Empresa",
+      "select_all": "Selecionar todas",
+      "select_actives": "Selecionar ativas",
+      "property_title": "Propriedades",
+      "season_title": "Safras",
+      "all_properties": "Todas as propriedades",
+      "im_here": "Estou aqui",
+      "companies": "Empresas",
+      "properties": "Propriedades",
+      "go_to_property_hall": "Ir para o Hall de Propriedades",
+      "go_to_company_hall": "Ir para o Hall de Empresas"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "Entrar no Protector",
+      "subtitle": "Acesse sua conta e comece agora.",
+      "footer": "um produto {{- striderBold}}"
+    },
+    "hall_of_companies": {
+      "name": "Hall de Empresas",
+      "title": "Minhas Empresas",
+      "card": {
+        "season_label": "Safras Ativas"
+      },
+      "tooltips": {
+        "avatar": "Acessar"
+      }
+    },
+    "dashboard": {
+      "header": {
+        "title": "Todas as propriedades",
+        "create_presentation": "Criar Apresentação",
+
+        "select_apresentation": "Seleção para apresentação",
+        "start_presentation": "Iniciar Apresentação",
+        "presentation_description": "Escolha abaixo as propriedades que terão os dados apresntados em tela cheia.",
+        "select_all": "Select All",
+        "show_company": "Mostrar widgets da company",
+        "cancel": "Cancelar"
+      },
+      "drawer": {
+        "title": "Adicionar quadros de informação",
+        "button_title": "Configurar Quadros",
+        "description": "Arraste para o painel principal quais os quadros da lista abaixo deseja visualizar"
+      },
+      "sidebar": {
+        "title": "Propriedades",
+        "missing_data": "Sem dados no momento",
+        "last_visit": "Última entrada",
+        "damage": "Dano",
+        "control": "Controle",
+        "filter": "Filtrar",
+        "cancel": "Cancelar",
+        "description": "Escolha abaixo as culturas que você deseja visualizar no dashboard",
+        "filter_title": "Filtrar Culturas",
+        "filter_tooltip": "Filtrar Culturas",
+        "property_link": "Visualizar a timeline da propriedade",
+        "all": "Todas",
+        "favorites": "Favoritas",
+        "search": "Buscar",
+        "active_seasons": "Safras ativas",
+        "tasks": "Tarefas",
+        "dashboard": "Dashboard",
+        "timeline": "Timeline",
+        "invalid_property": "Não é possível acessar o painel pois não há áreas cadastradas. Entre em contato com Suporte Strider"
+      },
+      "issues": {
+        "title": "Apontamentos Mais Comuns",
+        "info": "Apresenta os apontamentos mais comuns da propriedade para o intervalo de tempo selecionado. Pode-se classificar os apontamentos pela quantidade de pontos encontrados, apontamentos em nível de dano ou hectares em dano. Filtre apontamentos por tipo (ex.: insetos, doenças, qualidade, etc.)",
+        "issues_found": "Amostras com apontamentos encotrados",
+        "damage_ha": "Hectares em dano",
+        "damage_samples": "Amostras em dano",
+        "largest_occurrence": "Maior ocorrência",
+        "clear_filters": "Limpar filtros",
+        "inside_of": "Dentro de",
+        "points": "pontos",
+        "areas": "áreas",
+        "number_damaged_hectares": "Quantidade de hectares em dano",
+        "number_samples_problem": "Número de amostras com problema",
+        "selected_filters": "Selecionados",
+        "filter_issues": "Filtrar os tipos de apontamentos"
+      },
+      "monitoring": {
+        "title": "Comparativo de Monitoramento",
+        "avg_day_between_visits": "Média de dias entre entradas",
+        "avg_ha_per_point": "Média de hectares por ponto",
+        "avg_monitored_ha": "Média de hectares monitorados",
+        "avg_points_per_account": "Média de pontos por técnico (por dia)",
+        "monitored_area": "Área monitorada",
+        "total_scouters": "Total de técnicos"
+      },
+      "sprays": {
+        "title": "COMPARATIVO DE APLICAÇÕES",
+        "product": "Produto",
+        "sprays": "Aplicações"
+      },
+      "tasks": {
+        "title": "Comparativo de Tarefas",
+        "subtitle_pre": "Tarefas criadas em",
+        "subtitle_all_farms": "todas as fazendas",
+        "open": "Em Aberto",
+        "complete": "Concluídas",
+        "overdue": "Atrasadas"
+      },
+      "duration_damage": {
+        "title": "Status Agronômico",
+        "info": "Status geral das regiões/talhões apresenta a área em cada nível de severidade (equilíbrio, controle e dano) - status atual. O gráfico de Duração da Infestação, apresenta há quantos dias foi identificado um apontamento com nível de severidade dano.",
+        "accept": "Equilíbrio",
+        "control": "Controle",
+        "damage": "Dano",
+        "legend_status": "Status geral dos talhões",
+        "legend_duration": "Duração da Infestação (em dias)",
+        "areas": "áreas",
+        "day": "dia"
+      },
+      "individual_scouter": {
+        "title": "Desempenho Individual dos Técnicos",
+        "info": "Apresenta os principais índices de desempenho para os técnicos no intervalo de tempo selecionado:",
+        "info_l1": "Dias trabalhados: número de dias em que o técnico realizou pelo menos uma amostra;",
+        "info_l2": "Área monitorada por dia: média das áreas visitadas pelo técnico",
+        "info_l3": "Número de Entradas: Número de visitas realizadas em áreas de uma propriedade",
+        "info_l4": "Densidade amostral: média de hectares por ponto realizada pelo técnico;",
+        "daily_area": "Área monitorada por dia",
+        "work_days": "Dias trabalhados",
+        "total_inspections": "Número de inspeções",
+        "sample_density": "Densidade amostral"
+      },
+      "monitoring_kpi": {
+        "title": "Informações Gerais de Monitoramento",
+        "info": "Apresenta os principais índices de monitoramento da propriedade calculados no intervalo de tempo selecionado.",
+        "days_inspections": {
+          "title": "Dias entre inspeções",
+          "info": "média de dias de reentrada nos talhões",
+          "description": "Dias entre visitas"
+        },
+        "sample_density": {
+          "title": "Densidade Amostral",
+          "info": "representa a distribuição dos pontos nas áreas visitadas",
+          "description": "hectares/amostra"
+        },
+        "avg_monitored_area": {
+          "title": "Média de área monitorada/técnico",
+          "info": "média de hectares visitados por cada técnico em um dia de serviço",
+          "description": "hectares/técnico"
+        },
+        "avg_sample_day": {
+          "title": "Média de amostras/dia",
+          "info": "quantidade de amostras feitas por dia",
+          "description": "amostras/dia"
+        },
+        "avg_time_sample": {
+          "title": "Média de tempo entre amostras",
+          "info": "tempo médio entre amostras realizadas",
+          "description": "minutos entre amostras"
+        },
+        "avg_sample_scouter": {
+          "title": "Média de amostras/técnico",
+          "info": "média de amostras realizadas por técnicos que realizaram algum monitoramento",
+          "description": "amostras/técnico"
+        }
+      },
+      "tasks_farm": {
+        "title": "Visão Geral das Tarefas",
+        "info": "Apresenta a visão acumulada das tarefas da propriedade, dia a dia, apresentando a quantidade de tarefas concluídas, em aberto e atrasadas",
+        "subtitle_pie": "tarefas criadas no período.",
+        "open": "Em Aberto",
+        "complete": "Concluídas",
+        "overdue": "Atrasadas",
+        "point_format_sep": "de"
+      },
+      "empty_state": {
+        "content": "Não há dados para serem exibidos",
+        "error": "Erro ao carregar os dados do gráfico.",
+        "reload": "Tente carregar novamente a página.",
+        "widget_notExist": "Este widget não exibe informações por não ter dados no seu banco."
+      },
+      "product_types": {
+        "title": "Aplicações: Produtos e Tipos",
+        "info": "Apresenta os tipos de produtos mais utilizados na propriedade para o intervalo de tempo selecionado. Além disso, é possível visualizar as áreas com maior número de aplicações e os produtos mais utilizados",
+        "legend_products": "Produtos",
+        "legend_sprays": "Aplicações",
+        "legend_quantity": "Quantidade",
+        "most_sprays_area": "Área com mais aplicações"
+      },
+      "scouter_perf_over_time": {
+        "title": "Desempenho dos Técnicos por Dia",
+        "info": "Apresenta graficamente a nota de qualidade de monitoramento, tempo médio entre amostras ou número de pontos dia a dia para os técnicos selecionados.",
+        "daily_points": "Número de pontos",
+        "daily_minutes_avg": "Tempo médio entre amostras",
+        "scouter_filter": "Filtrar de técnicos",
+        "selected_filters": "Selecionados",
+        "legend_avg": "Média",
+        "legend_points": "Pontos"
+      },
+      "heatmap_over_time": {
+        "title": "Mapa de Calor ao Longo do Tempo",
+        "info": "Apresenta o mapa de calor de um indicador de uma observação. Use a barra de navegação temporal para visualizar o comportamento geográfico e a evolução de uma observação.",
+        "indicators": "Indicadores",
+        "all_filters": "Todos"
+      },
+      "abandoned_areas": {
+        "title": "Dias sem visita",
+        "info": "Apresenta o percentual da área da propriedade que foi monitorada ou recebeu alguma aplicação no intervalo de tempo selecionado. Os gráficos de barras apresentam há quantos dias uma determinada área não recebe monitoramentos ou aplicações.",
+        "reentry": "Reentrada",
+        "reentry_period": "Período de reentrada",
+        "never_visited": "Nunca visitado",
+        "days_without_monitoring": "Dias sem monitoramento",
+        "days_without_sprays": "Dias sem aplicação",
+        "days": "dias",
+        "tasks": "Tarefas",
+        "timeline": "Timeline",
+        "areas": "áreas",
+        "total_area": "Percentual de áreas monitoradas no período selecionado",
+        "total_area_fazenda": "Áreas total da fazenda",
+        "total_area_spray": "Porcentaje de áreas con aplicaciones en el período seleccionado",
+        "talhao": "Area ",
+        "talhao_monitoriamento_sem": "Areas con más días sin supervisión",
+        "talhao_monitoriamento_com": "Areas con más días con supervisión",
+        "talhao_aplicacao_sem": "Areas con más días sin aplicación",
+        "talhao_aplicacao_com": "Areas con más días con aplicación",
+        "talhao_ordenar": "Ordernar por: ",
+        "sem_aplicacao_label": "No hay aplicación"
+      },
+      "tasks_list": {
+        "title": "Lista de Tarefas",
+        "info": "Apresenta a lista de tarefas para o intervalo de tempo selecionado",
+        "overdue": "Atrasadas",
+        "pending": "Abertas",
+        "executed": "Completas",
+        "SAMPLE": "Amostragem",
+        "PHENOMENON_MONITORING": "Monitoramento",
+        "SPRAY": "Prescrição",
+        "type": "Tipo",
+        "breadcrumbs": "Área",
+        "assignee": "Responsável",
+        "date": "Inicío da tarefa",
+        "status": "Status",
+        "completed_in": "Concluída em",
+        "tasks_btn": "Ver lista completa de tarefas"
+      },
+      "scouter_distance_time_avg": {
+        "title": "Monitoramento: Tempo médio e distância percorrida por dia",
+        "info": "Apresenta graficamente as médias de distância percorrida por um técnico e o tempo gasto dentro de uma área, para o intervalo de tempo selecionado",
+        "avg_distance": "Média de distancia percorrida",
+        "avg_minutes": "Média de tempo gasto",
+        "distance_day": "km/dia",
+        "minutes_day": "hr/dia"
+      }
+    },
+    "empty_data": {
+      "no_data": "Não há dados para serem exibidos",
+      "error_loading_page": "Erro ao carregar os dados do gráfico",
+      "recharge_page": "Tente carregar a página",
+      "no_database": "Este widget não exibe informações por não ter dados no seu banco"
+    },
+    "presentation_mode": {
+      "exit_mode": "Sair"
+    },
+    "timeline": {
+      "region_select": {
+        "all_regions": "Todas as regiões"
+      },
+      "no_events": "No events to display",
+      "last_activity": "Última atividade",
+      "bar": {
+        "previous": "Voltar",
+        "next": "Avançar",
+        "loading": "Carregando eventos...",
+        "previous_disabled": "Não existem eventos anteriores",
+        "next_disabled": "Não existem eventos posteriores"
+      },
+      "sample_details": {
+        "average": "Média",
+        "title": "Detalhes das amostras de problema",
+        "samples": "pontos amostrais",
+        "point": "Ponto"
+      },
+      "header": {
+        "more": "more",
+        "reentry_period": "Período de reentrada: {{days}} dias",
+        "preharvest_interval": "Período de carência: {{days}} dias",
+        "phenological_stage": "PHENOLOGICAL STAGE",
+        "last_spray": "Last spray",
+        "next_spray": "Next spray",
+        "select_assignee": "Select the assignee",
+        "assignee": "Assignee",
+        "product": "Product",
+        "planting_day": "Planting day",
+        "day_of_emergence": "Day of emergence",
+        "last_scouting": "Last scouting",
+        "harvest_day": "Dia de colheita",
+        "show_less": "Show less",
+        "edit_info": "Edit info",
+        "show_more": "Show more",
+        "create_task": "Create task"
+      },
+      "monitoring_window": {
+        "phenomena_samples": "Amostras de Monitoramentos",
+        "see_details": "Ver detalhes",
+        "see_heatmap": "Ver mapa de calor",
+        "evolution_graph": "Gráfico de Evolução",
+        "phenomenon_sampling": "amostras de monitoramentos",
+        "sample_density": "Densidade amostral",
+        "time_spent": "Tempo gasto no talhão",
+        "sample": "amostra",
+        "time_between_samples": "Tempo médio entre amostras",
+        "found_occurences": "OCORRÊNCIAS ENCONTRADAS",
+        "found_phenomena": "INDICADORES",
+        "not_found_occurences": "Ocorrências não encontradas",
+        "point_real": "REAL",
+        "point_simulated": "SIMULADA"
+      },
+      "fixed_points": {
+        "fixed_point_samples": "Amostras de ponto fixo",
+        "assignees": "Responsável",
+        "traps_sampled": "TIPOS DE ARMADILHA AMOSTRADOS",
+        "pluviometry": "Pluviometria",
+        "current_value": "Valor atual",
+        "accumulated_value": "Acumulado mensal",
+        "individuals": "Indivíduos"
+      },
+      "annotations": {
+        "annotations": "Anotações",
+        "annotation": "Anotação {{index}}"
+      },
+      "phenology": {
+        "phenological_stage": "Estádio fenológico",
+        "phenological_stage_samples": "amostras de estádio fenológico",
+        "found_stages": "ESTÁDIOS ENCONTRADOS",
+        "assignee": "Assignee",
+        "assginees": "Assignees"
+      },
+      "spray": {
+        "application": "Aplicacion",
+        "application_details": "Detalhes da aplicação",
+        "application_areas": "Área(s) de aplicação",
+        "start": "Início",
+        "end": "Término",
+        "week": "Semana",
+        "type": "Tipo",
+        "dose": "Dose",
+        "title": "Detalhes da Aplicação",
+        "flow": "Vazão",
+        "mode": "Modo de Aplicação",
+        "total": "Quantidade total",
+        "tank": "Tanques",
+        "days": "days",
+        "active_principle": "Princípios ativo",
+        "total_amount": "Quantidade total",
+        "total_per_tank": "Quantidade por tanque",
+        "volume_last_tank": "Volume do último tanque",
+        "reentry_period": "Período de reentrada",
+        "shortage_period": "Período de carência",
+        "kilograms": "Kilogramas",
+        "kilograms_per_hectare": "Kg/ha",
+        "liters": "Litros",
+        "liters_per_hectare": "L/ha"
+      }
+    },
+    "tasks": {
+      "scouting": {
+        "scouting-create": {
+          "title": "Novo Monitoramento"
+        }
+      },
+      "sampling": {
+        "sampling-create": {
+          "title": "Nova Amostragem"
+        }
+      },
+      "prescription": {
+        "prescription-create": {
+          "title": "New Prescription",
+          "sub_title": "prescription"
+        }
+      },
+      "registration": {
+        "registration-create": {
+          "title": "New Spray Registration",
+          "sub_title": "registration"
+        }
+      },
+      "task_messages": {
+        "error_missing_fields": "Um ou mais campos necessitam de preenchimento para envio da nova tarefa.",
+        "error_create": "Erro: não foi possível criar a tarefa.",
+        "success_create": "Tarefa criada com sucesso."
+      },
+      "new_task": "Nova Tarefa",
+      "task_type": {
+        "PHENOMENON_MONITORING": "Monitoramento",
+        "SPRAY": "Prescrição",
+        "SAMPLE": "Amostragem",
+        "APPLICATION_FILTER": "Aplicações",
+        "APPLICATION": "Aplicación",
+        "all": "Todas as Tarefas",
+        "ALL": "Todas as Tarefas"
+      },
+      "tasks_table": {
+        "statuses": {
+          "TODO": "A Fazer",
+          "DELAYED": "Atrasada",
+          "IN_PROGRESS": "Em progresso",
+          "DONE": "Finalizada"
+        },
+        "cancel": "Cancelar",
+        "save_columns": "Salvar Configuraçāo",
+        "start_at": "Início",
+        "status": "Status",
+        "type": "Tipo",
+        "points": "Pontos",
+        "seen_by": "Visto por",
+        "breadcrumbs": "Área",
+        "assignees": "Executores",
+        "actions": "Ações",
+        "executed": "Completas",
+        "pending": "Abertas",
+        "overdue": "Atrasadas",
+        "details": "Detalhes",
+        "today": "Hoje",
+        "select_columns": "Configuração de colunas",
+        "monitoring": "Monitoramento",
+        "spray": "Prescrição",
+        "sample": "Amostragem",
+        "targets": "Alvos",
+        "name": "Nome",
+        "planned_start_date": "Início",
+        "point_count": "Pontos",
+        "seen": "Visualizado",
+        "TODO": "Tarefas pendentes",
+        "DELAYED": "Tarefas atrasadas",
+        "DONE": "Tarefas concluídas",
+        "ALL": "Todas as Tarefas",
+        "areas": "áreas",
+        "print_prescription": "Print Prescription",
+        "spray_register": "Spray Register",
+        "not_seen": "Not seen yet",
+        "remove": "Remove",
+        "edit": "Edit",
+        "go_timeline": "Go to timeline"
+      },
+      "task_sidebar": {
+        "areas": "Áreas",
+        "apply_filters": "Aplicar fitros"
+      },
+      "task_selected_regions": {
+        "selected_regions": "Área(s) selecionada(s)",
+        "sprayed_area": "Área Aplicada",
+        "select_on_map_or_list": "selecione na lista ou no mapa"
+      },
+      "task_sampling": {
+        "search": "Procurar"
+      },
+      "tasks_products": {
+        "inventory": "Inventário",
+        "add_product": "Adicionar produto",
+        "empty_state_message": "Nenhum produto selecionado",
+        "product": "Produto",
+        "product_plural": "Produtos",
+        "product_information": "Informações do produto",
+        "action_mode": "Modo de ação",
+        "mass_unit": "Unidade",
+        "area_unit": "por",
+        "dose": "Dose",
+        "total_quantity": "Quantidade total",
+        "targets": "Alvos",
+        "indicator": "Indicador",
+        "select_problem": "Selecione um problema",
+        "add_problem": "Adicionar outro problema",
+        "stock_info": "Em estoque:",
+        "warehouse": "Armazém",
+        "warehouse_quantity": "Quantidade",
+        "warehouse_select": "Selecionar de outro armazém",
+        "quantity_warning": "A quantidade inserida é maior que o estoque",
+        "action_modes": {
+          "SYSTEMIC": "Sistêmico",
+          "CONTACT": "Contato"
+        },
+        "calculation_types": {
+          "AREA": "ha",
+          "VOLUME": "100l",
+          "TANK": "tanque"
+        }
+      },
+      "task_create": {
+        "task_name": "Nome da Tarefa",
+        "season": "Safra",
+        "season_select": "Selecione a safra",
+        "period": "Período",
+        "begin": "Início",
+        "mandatory_field": "Mandatory field",
+        "end": "Fim",
+        "recurring_task": "Tarefa Recorrente",
+        "sampling": "Amostragen(s)",
+        "points": "Pontos",
+        "duration": "Duração",
+        "repeat_each": "Repetir a cada",
+        "days": "dias",
+        "repeat_until": "Repetir até",
+        "repeat": "Repetir",
+        "times": "vezes",
+        "simple": "Simples",
+        "compound": "Composto",
+        "free": "Livre",
+        "georeferenced": "Georeferenciado",
+        "automatic_distribution": "Distribuição Automática (grid)",
+        "type": "Tipo",
+        "hectare_point": "Hectare/Ponto",
+        "distance_between_points": "Distância entre os pontos (metros)",
+        "sample_size": "Quantidade de amostras",
+        "selected_areas": "Área(s) Selecionadas",
+        "select_areas_text": "seleciona na lista ou mapa",
+        "assignees": "Executores",
+        "search": "Procurar",
+        "allow_completion": "Permitir completude a partir de",
+        "inspection_focus": "Foco da Inspeção",
+        "comments": "Comentários",
+        "create_new_task": "Criar Nova Tarefa",
+        "cancel": "Cancelar",
+        "invalid_form": "Preencha todos as informações obrigatórias"
+      },
+      "tasks_prescription_settings": {
+        "title": "Configurações de prescrição",
+        "split_option": "Dividir aplicação por tanque",
+        "recalculate_description": "Recalcular Quantidade Total",
+        "recalculate_tank_option": "Pelo número de tanques",
+        "recalculate_flow_option": "Pela vazão",
+        "empty_area_error": "Selecione ao menos uma região para realizar os cálculos",
+        "calculation_error_message": "Área, quantidade e capacidade de tanques devem ser informados para a realização dos cálculos",
+        "calculation_error_message_2": "Pelo menos uma área deve ser selecionada",
+        "flow": {
+          "label": "Vazão",
+          "hint": "Quantidade Total/Área"
+        },
+        "spray_quantity": {
+          "label": "Quantidade Total de Mistura",
+          "hint": "Quantidade Total da Aplicação"
+        },
+        "number_of_tanks": {
+          "label": "Número de tanques",
+          "hint": "Quantidade Total/Número de tanques"
+        },
+        "tank_capacity": {
+          "label": "Capacidade do Tanque",
+          "hint": "Quantidade Total/Capacidade do Tanque"
+        },
+        "quantity_on_last_tank": {
+          "label": "Capacidade do último tanque",
+          "hint": ""
+        }
+      },
+      "tasks_prescription_tech_info": {
+        "title": "Informações técnicas",
+        "period_addon": "dias",
+        "reentry_period": {
+          "label": "Período de Reentrada"
+        },
+        "waiting_period": {
+          "label": "Período de carência"
+        },
+        "notes": {
+          "label": "Anotações"
+        },
+        "machine": {
+          "label": "Máquina"
+        },
+        "implement": {
+          "label": "Implemento"
+        },
+        "pointer": {
+          "label": "Bocal"
+        },
+        "tip_rating": {
+          "label": "Classificação do bocal"
+        },
+        "angle": {
+          "label": "Ângulo",
+          "unit": "graus"
+        },
+        "drop_size": {
+          "label": "Tamanho do pedido"
+        },
+        "temperature": {
+          "label": "Temperatura",
+          "unit": "°C"
+        },
+        "wind_speed": {
+          "label": "Velocidade do vento",
+          "unit": "km/h"
+        },
+        "relative_humidity": {
+          "label": "Umidade relativa",
+          "unit": "%"
+        },
+        "soil_humidity": {
+          "label": "Umidade do solo",
+          "options": {
+            "WET": "Wet",
+            "DRY": "Dry",
+            "MOIST": "Moist"
+          }
+        }
+      }
+    },
+    "side_menu": {
+      "hall_of_properties": "Hall de Propriedades",
+      "hall_of_companies": "Hall of Companies",
+      "timeline": "Linha do tempo",
+      "tasks": "Tarefas",
+      "fixed_points": "Pontos Fixos",
+      "spray_registration": "Registro de Aplicação",
+      "annotation": "Anotações",
+      "multilayer": "Multicamadas",
+      "settings": "Configurações",
+      "company_settings": "Configurações da Empresa"
+    },
+    "fixed_points": {
+      "fixed_points_name": "Pontos fixos",
+      "no_points_created": "No fixed points created",
+      "create_new_fixed_point": "Create new fixed point",
+      "add": "Adicionar",
+      "search": "Buscar",
+      "last_activity": "Última Atividade",
+      "trap": "Armadilha",
+      "pluviometer": "Pluviômetro",
+      "generic_point": "Ponto Genérico",
+      "new": "Novo",
+      "name": "Nome",
+      "coordinates": "Coordenadas",
+      "coordinates_text": "Digite ou clique no mapa para definir as coordenadas",
+      "please_fill": "* Favor preencher todos os campos",
+      "collection_results": "Resultados da coleta",
+      "cumulative": "Cumulativo",
+      "not_cumulative": "Não Cumulativo",
+      "duration": "Duração (dias)",
+      "install": "Instalar",
+      "read": "Leitura",
+      "all": "Todas",
+      "corresponding_areas": "Áreas correspondentes",
+      "select_areas": "Selecione as áreas",
+      "last_event": "Último evento",
+      "pluviometry_chart": "Pluviometry Chart",
+      "installation": "Instalação",
+      "uninstallation": "Desinstalação",
+      "renewal": "Renovação",
+      "traps": "Armadilhas",
+      "pluviometers": "Pluviômetros",
+      "generics": "Genéricos",
+      "calculation_method": "Calculation method",
+      "accumulative": "Accumulative",
+      "always_reset": "Always reset",
+      "deactivate_point": "Deactivate point",
+      "message_deactivate_point": "You will only deactivate this point, not delete it",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "pluviometry": "Pluviometry",
+      "accumulated": "Accumulated",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "week_abbreviation": "WK",
+      "monthly": "Monthly",
+      "yearly": "Year"
+    },
+    "report": {
+      "dropdownTitle": "Gerar relatório",
+      "names": {
+        "detailed": "Relatório Detalhado",
+        "monitoring_statistics": "Estatísticas de monitoramento",
+        "application_statistics": "Estatísticas de aplicação",
+        "fixedpoint": "Relatório de ponto fixo",
+        "sample_analysis": "Análise de amostras"
+      }
+    }
+  },
+  "charts": {
+    "phenomenon_over_time": {
+      "title": "Gráfico de {{phenomenon.name}}",
+      "subtitle": "Amostra de problemas • {{area.name}}",
+      "legend": {
+        "phenological_stage": "Estádio Fenológico",
+        "damage": "Característica em dano",
+        "characteristics": "Características"
+      },
+      "select_all": "Selecionar todas",
+      "thresholds": {
+        "control": "Controle",
+        "damage": "Dano"
+      },
+      "spray": {
+        "product": "PRODUTO",
+        "dose": "DOSE"
+      }
+    }
+  }
+}

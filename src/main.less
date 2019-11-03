@@ -1,0 +1,96 @@
+@import '~antd/dist/antd.less';
+@import './config/style/theme.less';
+@import './config/style/base.less';
+@import './config/style/antd-overrides.less';
+@import '~leaflet/dist/leaflet.css';
+@import '~leaflet-draw/dist/leaflet.draw.css';
+
+@nocache: `Math.random()`;
+@import 'http://icons.base.strider.ag/v4/strider-font-v4.css?@{nocache}';
+
+body {
+  margin: 0;
+  font-family: @font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: @text-color;
+  fill: @text-color;
+}
+
+b,
+strong {
+  font-weight: 500;
+}
+
+span {
+  cursor: inherit;
+}
+
+.st-layout {
+  height: 100vh;
+
+  .st-sider {
+    background-color: #2f3031;
+
+    .st-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      height: calc(100vh - @trigger-height);
+
+      img {
+        padding: 6px 12px;
+        height: @header-height;
+      }
+
+      .ant-menu {
+        display: grid;
+        grid-auto-rows: 40px;
+        margin-top: 16px;
+
+        .ant-menu-item {
+          display: grid;
+          grid-template-columns: 2px 62px auto;
+          padding: 0 !important;
+          margin: 0 !important;
+          align-items: center;
+
+          svg {
+            fill: #707374;
+            align-self: center;
+            justify-self: center;
+          }
+
+        }
+
+        .ant-menu-item-selected {
+
+          .st-menu-active {
+            height: 24px;
+            background-color: white;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+          }
+
+          svg {
+            fill: white;
+          }
+        }
+
+      }
+
+    }
+  }
+
+  .st-header {
+    height: @header-height;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f3f6;
+    padding: 0 16px 0 0;
+    display: flex;
+  }
+
+  .st-content {
+    background-color: #f5f8fc;
+  }
+}

@@ -1,0 +1,1042 @@
+{
+  "key_capitalize": "{{key, capitalize}}",
+  "general": {
+    "property_not_allowed": "Error trying to get data. You might not have access to this property. Contact Strider support if the error persists. Redirecting",
+    "ellipsis": "Show more",
+    "welcome_text_first_line": "Wel",
+    "welcome_text_second_line": "come",
+    "context_select": {
+      "season_select": {
+        "show_seasons": "Show seasons",
+        "select_all": "Select all",
+        "select_active": "Select actives",
+        "cancel": "Cancel",
+        "save": "Save seasons",
+        "active": "ATIVA"
+      }
+    },
+    "map": {
+      "loading": "Loading regions...",
+      "trackings": "Trackings",
+      "applied_heatmap": "Applied heatmap",
+      "multilayer": {
+        "files": "Files",
+        "heatmaps": "Protector Maps",
+        "remove": "Remove Layer",
+        "heatmaps_title": "Protector Maps",
+        "form": {
+          "severity_level": "Severity level",
+          "days_without_spray": "Days without spray",
+          "days_without_monitoring": "Days without monitoring",
+          "heatmaps": "Heatmaps",
+          "map_type": "Exibition focus",
+          "heatmap_algorithm": "Map type",
+          "select": "Select",
+          "phenomenon": "Issue",
+          "indicator": "Indicador",
+          "export": "Export Map",
+          "histogram": "HISTOGRAM",
+          "histogram_unit": "Area(ha)"
+        },
+        "farmshots": {
+          "settings": "Settings",
+          "go_back": "Go back",
+          "open_settings": "Open settings",
+          "cloud_cover_index": "Cloud index below",
+          "cloud": "Cloud",
+          "cloud_plural": "Clouds",
+          "cloudWithCount": "Clouds: {{count}}",
+          "scene": "{{count}} scene",
+          "scene_plural": "{{count}} scenes",
+          "algorithm": "Algorithm",
+          "sources": "Sources",
+          "time_range": "Time range",
+          "inconsistent_opacity": "Inconsistent opacity value, some scene's opacity has been changed individually"
+        }
+      },
+      "choropleth": {
+        "days_without_spray": "DAYS WITHOUT SPRAY",
+        "days_without_monitoring": "DAYS WITHOUT MONITORING",
+        "severity_level": "SEVERITY LEVEL",
+        "heatmap": "SEVERITY LEVEL",
+        "balance": "Balance",
+        "control": "Control",
+        "damage": "Damage"
+      },
+      "create_point": "Click map to create a point",
+      "delete_point": "Delete point",
+      "new_group": "New Group"
+    },
+    "region_tree": {
+      "placeholder": "Select regions..."
+    }
+  },
+  "units": {
+    "hectares": "{{hectares, hectares}}",
+    "date": "{{date, MM/DD/YYYY}}",
+    "number": "{{number, number}}",
+    "products": {
+      "VARIETY": "Variety",
+      "FUEL": "Fuel",
+      "PART": "Part",
+      "HERBICIDE": "Herbicide",
+      "FUNGICIDE": "Fungicide",
+      "FERTILIZER": "Fertilizer",
+      "GENERIC_PRODUCT": "Generic Product",
+      "PESTICIDE": "Pesticide",
+      "ADJUVANT": "Adjuvant",
+      "LUBRICANT": "Lubricant",
+      "INOCULANT": "Inoculant",
+      "INSECTICIDE": "Insecticide"
+    },
+    "measure": {
+      "KILOGRAMS": {
+        "name": "kilogram",
+        "name_plural": "kilogram",
+        "abbreviation": "kg"
+      },
+      "LITERS": {
+        "name": "liter",
+        "name_plural": "liters",
+        "abbreviation": "L"
+      },
+      "UNITS": {
+        "name": "unit",
+        "name_plural": "units",
+        "abbreviation": "u"
+      },
+      "BOXS": {
+        "name": "box",
+        "name_plural": "boxes",
+        "abbreviation": "bx"
+      },
+      "SACK": {
+        "name": "sack",
+        "name_plural": "sacks",
+        "abbreviation": "sc"
+      },
+      "GALLONS": {
+        "name": "gallon",
+        "name_plural": "gallons",
+        "abbreviation": "gal"
+      },
+      "GRAMS": {
+        "name": "gram",
+        "name_plural": "grams",
+        "abbreviation": "g"
+      },
+      "TONNES": {
+        "name": "ton",
+        "name_plural": "tons",
+        "abbreviation": "t"
+      },
+      "MILLILITER": {
+        "name": "milliliter",
+        "name_plural": "milliliters",
+        "abbreviation": "ml"
+      },
+      "METERS": {
+        "name": "meter",
+        "name_plural": "meters",
+        "abbreviation": "m"
+      },
+      "OUNCES": {
+        "name": "ounce",
+        "name_plural": "ounces",
+        "abbreviation": "oz"
+      },
+      "POUNDS": {
+        "name": "pound",
+        "name_plural": "pounds",
+        "abbreviation": "lb"
+      },
+      "PINTS": {
+        "name": "pint",
+        "name_plural": "pints",
+        "abbreviation": "pt"
+      },
+      "DOSE": {
+        "name": "dose",
+        "name_plural": "doses",
+        "abbreviation": "doses"
+      }
+    },
+    "time": {
+      "MILLISECOND": {
+        "name": "millisecond",
+        "name_plural": "milliseconds",
+        "abbreviation": "ms"
+      },
+      "NANOSECOND": {
+        "name": "nanosecond",
+        "name_plural": "nanoseconds",
+        "abbreviation": "ns"
+      },
+      "MICROSECOND": {
+        "name": "microsecond",
+        "name_plural": "microseconds",
+        "abbreviation": "μs"
+      },
+      "SECOND": {
+        "name": "second",
+        "name_plural": "seconds",
+        "abbreviation": "s"
+      },
+      "MINUTE": {
+        "name": "minute",
+        "name_plural": "minutes",
+        "abbreviation": "m"
+      },
+      "HOUR": {
+        "name": "hour",
+        "name_plural": "hours",
+        "abbreviation": "h"
+      },
+      "DAY": {
+        "name": "day",
+        "name_plural": "days",
+        "abbreviation": "d"
+      },
+      "WEEK": {
+        "name": "week",
+        "name_plural": "weeks",
+        "abbreviation": "W"
+      },
+      "MONTH": {
+        "name": "month",
+        "name_plural": "months",
+        "abbreviation": "M"
+      },
+      "YEAR": {
+        "name": "year",
+        "name_plural": "years",
+        "abbreviation": "Y"
+      }
+    }
+  },
+  "entities": {
+    "property": {
+      "key": "property",
+      "key_plural": "properties",
+      "keyWithCount": "{{count}} property",
+      "keyWithCount_plural": "{{count}} properties"
+    },
+    "season": {
+      "key": "season",
+      "key_plural": "seasons",
+      "keyWithCount": "{{count}} season",
+      "keyWithCount_plural": "{{count}} seasons"
+    },
+    "crop": {
+      "key": "crop",
+      "key_plural": "crops",
+      "keyWithCount": "{{count}} crop",
+      "keyWithCount_plural": "{{count}} crops",
+      "label": "$t(entities.crop.types.{{crop}})",
+      "types": {
+        "corn": "Corn",
+        "sugarcane": "Sugar cane",
+        "soybeans": "Soybeans"
+      }
+    }
+  },
+  "layout": {
+    "collapse_sider": "Collapse",
+    "expand_sider": "Expand",
+    "logout_popover": {
+      "logged_as": "Logged as:",
+      "logout": "Logout from Protector",
+      "edit": "Edit"
+    },
+    "company_select": {
+      "go_to_property_hall": "Go to Property Hall"
+    },
+    "property_select": {
+      "go_to_company_hall": "Go to Company Hall"
+    }
+  },
+  "alert": {
+    "login": {
+      "bad_credentials": {
+        "title": "Invalid username or password",
+        "description": "If the problem persists, contact Strider support."
+      }
+    }
+  },
+  "form": {
+    "username_input": "Username or e-mail",
+    "password_input": "Password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot your password?",
+    "signin_button": "Sign In"
+  },
+  "modals": {
+    "general": {
+      "cancel": "Cancel",
+      "apply": "Apply"
+    },
+    "application-detail": {
+      "title": "Application Details",
+      "phenological_stage": "Estádio fenológico",
+      "week": "Week",
+      "start": "Start",
+      "finish": "End",
+      "application_areas": "Application Areas",
+      "area": "Areas",
+      "application_area_total": "Total",
+      "products": {
+        "type": "Type",
+        "dose": "Dose",
+        "active_principles": "Active Principles",
+        "total": "Total",
+        "characteristic": "Characteristics",
+        "liters_per_ha": "L/ha"
+      },
+      "resume": {
+        "title": "Application Details",
+        "flow": "Flow",
+        "mode": "Application Mode",
+        "total": "Total",
+        "tank": "Tank",
+        "total_per_tank": "Total Per Tank",
+        "volume_last_tank": "Last Tank Volume",
+        "reentry_period": "Reentry Period",
+        "shortage_period": "Shortage Period",
+        "liters_per_ha": "L/ha",
+        "liters": " Liters"
+      },
+      "table": {
+        "title": "Areas",
+        "total_sprayed_area": "Total area/sprayed area",
+        "comparative": "Comparative",
+        "sample_points": "Sample points",
+        "columns": {
+          "name": "Name",
+          "prev_average": "Previous Average",
+          "pos_average": "Next Average"
+        }
+      }
+    },
+    "product_detail": {
+      "composition": "Composition",
+      "action_mode": "Action Mode",
+      "classification": {
+        "title": "Classification",
+        "ambiental": "Environment",
+        "corrosivity": "Corrosivity",
+        "flammability": "flammability",
+        "formulation": "Formulation",
+        "toxicological": "Toxicológica"
+      },
+      "usage": {
+        "title": "Guidelines fo ue",
+        "dosage": "Dosage",
+        "syrup": "Syrup",
+        "ground": "",
+        "aerial": "Aérea",
+        "interval": "Intervalo",
+        "application": "Aplicação",
+        "reapplication": "Dias para reaplicação",
+        "application_season": "Época de Aplicação"
+      }
+    },
+    "monitoring_point": {
+      "title": "Sample point"
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "company_title": "Company",
+      "select_all": "Select all",
+      "select_actives": "Select Actives",
+      "property_title": "Properties",
+      "season_title": "Seasons",
+      "all_properties": "All properties",
+      "im_here": "I'm here",
+      "companies": "Companies",
+      "properties": "Properties",
+      "go_to_property_hall": "Go to property hall",
+      "go_to_company_hall": "Go to company hall"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "Sign In to Protector",
+      "subtitle": "Access your account and start now.",
+      "footer": "a {{- striderBold}} product"
+    },
+    "hall_of_companies": {
+      "name": "Hall of Companies",
+      "title": "My Companies",
+      "card": {
+        "season_label": "Active Seasons"
+      },
+      "tooltips": {
+        "avatar": "Access"
+      }
+    },
+    "dashboard": {
+      "header": {
+        "title": "All properties",
+        "create_presentation": "Create Slideshow",
+        "select_apresentation": "Selection for presentation",
+        "start_presentation": "Begin Slideshow",
+        "presentation_description": "Choose below the farms that will have their data shown in full screen.",
+        "show_company": "Show company widgets",
+        "select_all": "Select All",
+        "cancel": "Cancel"
+      },
+      "drawer": {
+        "title": "Add information widgets",
+        "button_title": "Configure Widgets",
+        "description": "Drag and drop which widgets you wish to visualize"
+      },
+      "sidebar": {
+        "title": "Properties",
+        "missing_data": "No data at the moment",
+        "last_visit": "Last visit",
+        "damage": "Damage",
+        "control": "Control",
+        "filter": "Apply",
+        "cancel": "Cancel",
+        "description": "Choose below the crops you wish to visualize in the dashboard",
+        "filter_title": "Filter Crops",
+        "filter_tooltip": "Filter Crops",
+        "property_link": "Open property timelime",
+        "all": "All",
+        "favorites": "Favorites",
+        "search": "Search",
+        "active_seasons": "Active seasons",
+        "tasks": "Tasks",
+        "dashboard": "Dashboard",
+        "timeline": "Timeline",
+        "invalid_property": "It is not possible to access this property. There are not any registered areas. Contact Strider support."
+      },
+      "issues": {
+        "title": "Most Common Issues",
+        "info": "Apresenta os apontamentos mais comuns da propriedade para o intervalo de tempo selecionado. Pode-se classificar os apontamentos pela quantidade de pontos encontrados, apontamentos em nível de dano ou hectares em dano. Filtre apontamentos por tipo (ex.: insetos, doenças, qualidade, etc.)",
+        "issues_found": "Total Issues Found",
+        "damage_ha": "Damaged area in hectares",
+        "damage_samples": "Damaged Samples",
+        "inside_of": "Inside of",
+        "areas": "areas",
+        "points": "points",
+        "largest_occurrence": "Largest occurrence",
+        "number_damaged_hectares": "Damaged area in hectares",
+        "number_samples_problem": "Number of samples with problems",
+        "clear_filters": "Clear filters",
+        "selected_filters": "Selected",
+        "filter_issues": "Filter types of problems"
+      },
+      "monitoring": {
+        "title": "Farm Monitoring",
+        "avg_day_between_visits": "Average Day Between Visits",
+        "avg_ha_per_point": "Average Ha Per Point",
+        "avg_monitored_ha": "Average Monitored Ha",
+        "avg_points_per_account": "Average Points Per Account",
+        "monitored_area": "Monitored area",
+        "total_scouters": "Number of scouters"
+      },
+      "sprays": {
+        "title": "Farm Sprays",
+        "product": "Product",
+        "sprays": "Sprays"
+      },
+      "tasks": {
+        "title": "Tasks",
+        "subtitle_pre": "Tasks created in",
+        "subtitle_all_farms": "all farms",
+        "open": "Open",
+        "complete": "Complete",
+        "overdue": "Overdue"
+      },
+      "duration_damage": {
+        "title": "Agronomic Status",
+        "info": "General status of the areas shows the severity level in each one (balace, control or damage) - current status. Duration of Damage Period shows the amount of days passed since a sample was reported with the severity level 'damage'.",
+        "accept": "Accept",
+        "control": "Control",
+        "damage": "Damage",
+        "legend_status": "General Region Status",
+        "legend_duration": "Duration of Damage Period (in days)",
+        "areas": "areas",
+        "day": "day"
+      },
+      "individual_scouter": {
+        "title": "Individual Scouter Performance",
+        "info": "Apresenta os principais índices de desempenho para os técnicos no intervalo de tempo selecionado:",
+        "info_l1": "Dias trabalhados: número de dias em que o técnico realizou pelo menos uma amostra;",
+        "info_l2": "Área monitorada por dia: média das áreas visitadas pelo técnico",
+        "info_l3": "Número de Entradas: Número de visitas realizadas em áreas de uma propriedade",
+        "info_l4": "Densidade amostral: média de hectares por ponto realizada pelo técnico;",
+        "daily_area": "Daily monitored area",
+        "work_days": "Number of work days",
+        "total_inspections": "Number of inspections",
+        "sample_density": "Spample density"
+      },
+      "monitoring_kpi": {
+        "title": "General Monitoring Information",
+        "info": "Apresenta os principais índices de monitoramento da propriedade calculados no intervalo de tempo selecionado.",
+        "days_inspections": {
+          "title": "Days between inspections",
+          "info": "média de dias de reentrada nos talhões",
+          "description": "Number of days between visits"
+        },
+        "sample_density": {
+          "title": "Sample Density",
+          "info": "representa a distribuição dos pontos nas áreas visitadas",
+          "description": "hectares/sample"
+        },
+        "avg_monitored_area": {
+          "title": "Average monitored area per scouter",
+          "info": "média de hectares visitados por cada técnico em um dia de serviço",
+          "description": "hectares/scouter"
+        },
+        "avg_sample_day": {
+          "title": "Average samples per day",
+          "info": "quantidade de amostras feitas por dia",
+          "description": "samples/day"
+        },
+        "avg_time_sample": {
+          "title": "Average time between samples",
+          "info": "tempo médio entre amostras realizadas",
+          "description": "minutes between samples"
+        },
+        "avg_sample_scouter": {
+          "title": "Average samples per scouter",
+          "info": "média de amostras realizadas por técnicos que realizaram algum monitoramento",
+          "description": "sample/scouter"
+        }
+      },
+      "tasks_farm": {
+        "title": "Tasks Summary",
+        "info": "Apresenta a visão acumulada das tarefas da propriedade, dia a dia, apresentando a quantidade de tarefas concluídas, em aberto e atrasadas",
+        "subtitle_pie": "tasks created during the period",
+        "open": "Open",
+        "complete": "Complete",
+        "overdue": "Overdue",
+        "point_format_sep": "of"
+      },
+      "empty_state": {
+        "content": "No data to display",
+        "error": "Error loading chart data.",
+        "reload": "Try reloading the page.",
+        "widget_notExist": "This widget does not display information because it has no data in its database."
+      },
+      "product_types": {
+        "title": "Sprays: Product and Types",
+        "info": "Apresenta os tipos de produtos mais utilizados na propriedade para o intervalo de tempo selecionado. Além disso, é possível visualizar as áreas com maior número de aplicações e os produtos mais utilizados",
+        "legend_products": "Products",
+        "legend_sprays": "Sprays",
+        "legend_quantity": "Quantity",
+        "most_sprays_area": "Area with the most sprays"
+      },
+      "scouter_perf_over_time": {
+        "title": "Scouter Performance Over Time",
+        "info": "Apresenta graficamente a nota de qualidade de monitoramento, tempo médio entre amostras ou número de pontos dia a dia para os técnicos selecionados.",
+        "daily_points": "Number of points",
+        "daily_minutes_avg": "Average time between samples",
+        "scouter_filter": "Filter scouts",
+        "selected_filters": "Selected",
+        "legend_avg": "Average",
+        "legend_points": "Points"
+      },
+      "heatmap_over_time": {
+        "title": "Heatmap Over Time",
+        "info": "Apresenta o mapa de calor de um indicador de uma observação. Use a barra de navegação temporal para visualizar o comportamento geográfico e a evolução de uma observação.",
+        "indicators": "Indicators",
+        "all_filters": "All"
+      },
+      "abandoned_areas": {
+        "title": "Abandoned Areas",
+        "info": "Apresenta o percentual da área da propriedade que foi monitorada ou recebeu alguma aplicação no intervalo de tempo selecionado. Os gráficos de barras apresentam há quantos dias uma determinada área não recebe monitoramentos ou aplicações.",
+        "reentry": "Reentry",
+        "reentry_period": "Reentry period",
+        "never_visited": "Never visited",
+        "days_without_monitoring": "Days without monitoring",
+        "days_without_sprays": "Days without sprays",
+        "days": "days",
+        "tasks": "Task",
+        "timeline": "Timeline",
+        "areas": "areas",
+        "total_area": "Total property area",
+        "total_area_spray": "Percentage of areas with applications in selected period",
+        "talhao": "Area ",
+        "talhao_monitoriamento_sem": "Areas with most days without monitoring",
+        "talhao_monitoriamento_com": "Areas with most days with monitoring",
+        "talhao_aplicacao_sem": "Areas with most days without application",
+        "talhao_aplicacao_com": "Areas with most days with application",
+        "talhao_ordenar": "Order by: ",
+        "sem_aplicacao_label": "There is no application"
+      },
+      "tasks_list": {
+        "title": "Tasks List",
+        "info": "Apresenta a lista de tarefas para o intervalo de tempo selecionado",
+        "overdue": "Overdue",
+        "pending": "Open",
+        "executed": "Complete",
+        "SAMPLE": "Sample",
+        "PHENOMENON_MONITORING": "Monitoring",
+        "SPRAY": "Prescription",
+        "type": "Type",
+        "breadcrumbs": "Area",
+        "assignee": "Assignee",
+        "date": "Task date",
+        "status": "Status",
+        "completed_in": "Completed on",
+        "tasks_btn": "View complete list of tasks"
+      },
+      "scouter_distance_time_avg": {
+        "title": "Monitoring: Average time and distance covered per day",
+        "info": "Apresenta graficamente as médias de distância percorrida por um técnico e o tempo gasto dentro de uma área, para o intervalo de tempo selecionado",
+        "avg_distance": "Average distance covered",
+        "avg_minutes": "Average time spent",
+        "distance_day": "km/day",
+        "minutes_day": "hr/day"
+      }
+    },
+    "empty_data": {
+      "no_data": "No data to display",
+      "error_loading_page": "Error loading chart data",
+      "recharge_page": "Try loading the page",
+      "no_database": "This widget does not display information because it has no data in its database."
+    },
+    "presentation_mode": {
+      "exit_mode": "Exit"
+    },
+    "timeline": {
+      "region_select": {
+        "all_regions": "All regions"
+      },
+      "no_events": "No events to show",
+      "last_activity": "Last Activity",
+      "bar": {
+        "previous": "Go back",
+        "next": "Forward",
+        "loading": "Loading events...",
+        "previous_disabled": "No prior events",
+        "next_disabled": "No events after this date"
+      },
+      "sample_details": {
+        "average": "Average",
+        "title": "Sample details",
+        "samples": "samples",
+        "point": "Point"
+      },
+      "header": {
+        "more": "more",
+        "reentry_period": "Restricted entry interval: {{days}} days",
+        "preharvest_interval": "Preharvest Interval: {{days}} days",
+        "phenological_stage": "PHENOLOGICAL STAGE",
+        "last_spray": "Last spray",
+        "next_spray": "Next spray",
+        "assignee": "Assignee",
+        "select_assignee": "Select the assignee",
+        "product": "Product",
+        "planting_day": "Planting day",
+        "day_of_emergence": "Day of emergence",
+        "harvest_day": "Harvest day",
+        "last_scouting": "Last scouting",
+        "show_less": "Show less",
+        "edit_info": "Edit info",
+        "show_more": "Show more",
+        "create_task": "Create task"
+      },
+      "monitoring_window": {
+        "phenomena_samples": "Scouting Samples",
+        "see_details": "See details",
+        "see_heatmap": "Show heatmap",
+        "evolution_graph": "Evolution graph",
+        "phenomenon_sampling": "scouting samples",
+        "sample_density": "Sample density",
+        "sample": "sample",
+        "time_spent": "Time spent on the field",
+        "time_between_samples": "Average time between samples",
+        "found_occurences": "FOUND OCCURRENCES",
+        "found_phenomena": "INDICATORS",
+        "not_found_occurences": "Not found occurences",
+        "point_real": "REAL",
+        "point_simulated": "SIMULATED"
+      },
+      "fixed_points": {
+        "fixed_point_samples": "Fixed point samples",
+        "assignees": "Assignees",
+        "traps_sampled": "SAMPLED TRAPS",
+        "pluviometry": "Pluviometry",
+        "current_value": "Current value",
+        "accumulated_value": "Accumulated value (monthly)",
+        "individuals": "Indivíduos"
+      },
+      "annotations": {
+        "annotations": "Annotations",
+        "annotation": "Annotation {{index}}"
+      },
+      "phenology": {
+        "phenological_stage": "Phenological stage",
+        "phenological_stage_samples": "phenological stage samples",
+        "found_stages": "FOUND STAGES",
+        "assignee": "Assignee",
+        "assginees": "Assignees"
+      },
+      "spray": {
+        "application": "Application",
+        "application_details": "Application Details",
+        "application_areas": "Application areas",
+        "start": "Start",
+        "end": "End",
+        "week": "Week",
+        "type": "Type",
+        "dose": "Dose",
+        "title": "Application Details",
+        "flow": "Flow",
+        "mode": "Application Mode",
+        "total": "Total amount",
+        "tank": "Tanks",
+        "days": "days",
+        "active_principle": "Active principles",
+        "total_amount": "Total amount",
+        "total_per_tank": "Total per tank",
+        "volume_last_tank": "Volume per tank",
+        "reentry_period": "Reentry Period",
+        "shortage_period": "Shortage Period",
+        "kilograms": "Kilograms",
+        "kilograms_per_hectare": "Kg/ha",
+        "liters": "Litres",
+        "liters_per_hectare": "L/ha"
+      }
+    },
+    "tasks": {
+      "scouting": {
+        "scouting-create": {
+          "title": "New Scouting"
+        }
+      },
+      "sampling": {
+        "sampling-create": {
+          "title": "New Sampling"
+        }
+      },
+      "prescription": {
+        "prescription-create": {
+          "title": "New Prescription",
+          "sub_title": "Prescription"
+        }
+      },
+      "registration": {
+        "registration-create": {
+          "title": "New Spray Registration",
+          "sub_title": "Spray Registration"
+        }
+      },
+      "task_messages": {
+        "error_missing_fields": "One or more fields are pending completion to submit a new task",
+        "error_create": "Error: could not create the task.",
+        "success_create": "The task was successfully created."
+      },
+      "new_task": "New Task",
+      "task_type": {
+        "PHENOMENON_MONITORING": "Scouting",
+        "SPRAY": "Prescription",
+        "SAMPLE": "Sampling",
+        "APPLICATION_FILTER": "Applications",
+        "APPLICATION": "Spray Registration",
+        "all": "All Tasks",
+        "ALL": "All Tasks"
+      },
+      "tasks_table": {
+        "statuses": {
+          "TODO": "Todo",
+          "DELAYED": "Delayed",
+          "IN_PROGRESS": "In progress",
+          "DONE": "Done"
+        },
+        "cancel": "Cancel",
+        "save_columns": "Save",
+        "start_at": "Start Date",
+        "status": "Status",
+        "type": "Type",
+        "points": "Points",
+        "seen_by": "Seen by",
+        "breadcrumbs": "Area",
+        "assignees": "Assignees",
+        "actions": "Actions",
+        "executed": "Complete",
+        "pending": "Pending",
+        "overdue": "Overdue",
+        "details": "Details",
+        "today": "Today",
+        "select_columns": "Select columns",
+        "monitoring": "Monitoring",
+        "spray": "Prescription",
+        "sample": "Sample",
+        "targets": "Targets",
+        "name": "Name",
+        "planned_start_date": "Start Date",
+        "point_count": "Points",
+        "seen": "Seen",
+        "TODO": "Pending tasks",
+        "DELAYED": "Delayed tasks",
+        "DONE": "Completed tasks",
+        "ALL": "All Tasks",
+        "areas": "areas",
+        "print_prescription": "Print Prescription",
+        "spray_register": "Spray Registration",
+        "not_seen": "Not seen yet",
+        "remove": "Remove",
+        "edit": "Edit",
+        "go_timeline": "Go to timeline"
+      },
+      "task_sidebar": {
+        "areas": "Areas",
+        "apply_filters": "Apply filters"
+      },
+      "task_selected_regions": {
+        "selected_regions": "Área(s) selecionada(s)",
+        "sprayed_area": "Sprayed Area",
+        "select_on_map_or_list": "selecione na lista ou no map"
+      },
+      "task_sampling": {
+        "search": "Procurar"
+      },
+      "tasks_products": {
+        "inventory": "Inventory",
+        "add_product": "Add product",
+        "empty_state_message": "No product selected",
+        "product": "Product",
+        "product_plural": "Products",
+        "product_information": "Product information",
+        "action_mode": "Action mode",
+        "mass_unit": "Unit",
+        "area_unit": "by",
+        "dose": "Dose",
+        "total_quantity": "Total quantity",
+        "targets": "Targets",
+        "indicador": "Indicator",
+        "select_problem": "Select a problem",
+        "add_problem": "Add another problem",
+        "stock_info": "In stock:",
+        "warehouse": "Warehouse",
+        "warehouse_quantity": "Quantity",
+        "warehouse_select": "Select warehouse",
+        "quantity_warning": "Selected quantity is higher than stock quantity",
+        "action_modes": {
+          "SYSTEMIC": "Systemic",
+          "CONTACT": "Contact"
+        },
+        "calculation_types": {
+          "AREA": "ac",
+          "VOLUME": "100l",
+          "TANK": "tank"
+        }
+      },
+      "task_create": {
+        "task_name": "Task Name",
+        "season": "Season",
+        "season_select": "Select the season",
+        "period": "Period",
+        "begin": "Beginning",
+        "mandatory_field": "Mandatory field",
+        "end": "End",
+        "recurring_task": "Recurring Task",
+        "sampling": "Sampling(s)",
+        "points": "Points",
+        "duration": "Duration",
+        "repeat_each": "Repeat each",
+        "days": "days",
+        "repeat_until": "Repeat until",
+        "repeat": "Repeat",
+        "times": "times",
+        "simple": "Simple",
+        "compound": "Compound",
+        "free": "Free",
+        "georeferenced": "Georeferenced",
+        "automatic_distribution": "Automatic Distribution (grid)",
+        "type": "Type",
+        "hectare_point": "Hectare/Point",
+        "distance_between_points": "Distance between points (meters)",
+        "sample_size": "Sample size",
+        "selected_areas": "Selected Area(s)",
+        "select_areas_text": "select in the list or map",
+        "assignees": "Assignees",
+        "search": "Search",
+        "allow_completion": "Allow task completion from",
+        "inspection_focus": "Inspection Focus",
+        "comments": "Comments",
+        "create_new_task": "Create new task",
+        "cancel": "Cancel",
+        "invalid_form": "Please fill out all mandatory fields"
+      },
+      "tasks_prescription_settings": {
+        "title": "Prescription settings",
+        "title_application": "Spray Registration settings",
+        "split_option": "Split spray by tank",
+        "recalculate_description": "Recalculate Total Quantity",
+        "recalculate_tank_option": "By the number of tanks",
+        "recalculate_flow_option": "By the flow",
+        "empty_area_error": "Select at least one region to perform the calculations",
+        "calculation_error_message": "Area, Number of tanks and capacity of tanks must be selected to perform calculations",
+        "calculation_error_message_2": "At least one area must be selected",
+        "flow": {
+          "label": "Flow",
+          "hint": "Total Quantity/Area"
+        },
+        "spray_quantity": {
+          "label": "Total Mixture Quantity",
+          "hint": "Spray Total Quantity"
+        },
+        "number_of_tanks": {
+          "label": "Number of tanks",
+          "hint": "Total Quantity/Number of Tanks"
+        },
+        "tank_capacity": {
+          "label": "Tank capacity",
+          "hint": "Total Quantity/Tank Capacity"
+        },
+        "quantity_on_last_tank": {
+          "label": "Last Tank Capacity",
+          "hint": ""
+        }
+      },
+      "tasks_prescription_tech_info": {
+        "title": "Technical information",
+        "period_addon": "days",
+        "reentry_period": {
+          "label": "Restricted entry interval"
+        },
+        "waiting_period": {
+          "label": "Preharvest Interval"
+        },
+        "notes": {
+          "label": "Notes"
+        },
+        "machine": {
+          "label": "Machine"
+        },
+        "implement": {
+          "label": "Implement"
+        },
+        "pointer": {
+          "label": "Nozzle"
+        },
+        "tip_rating": {
+          "label": "Nozzle classification"
+        },
+        "angle": {
+          "label": "Angle",
+          "unit": "degrees"
+        },
+        "drop_size": {
+          "label": "Drop size"
+        },
+        "temperature": {
+          "label": "Temperature",
+          "unit": "°C"
+        },
+        "wind_speed": {
+          "label": "Wind speed",
+          "unit": "km/h"
+        },
+        "relative_humidity": {
+          "label": "Relative humidity",
+          "unit": "%"
+        },
+        "soil_humidity": {
+          "label": "Soil moisture",
+          "options": {
+            "WET": "Wet",
+            "DRY": "Dry",
+            "MOIST": "Moist"
+          }
+        }
+      }
+    },
+    "side_menu": {
+      "hall_of_properties": "Property Dashboard",
+      "hall_of_companies": "Hall of Companies",
+      "timeline": "Timeline",
+      "tasks": "Tasks",
+      "fixed_points": "Fixed Points",
+      "spray_registration": "Spray Registration",
+      "annotation": "Reports",
+      "multilayer": "Multilayer",
+      "settings": "Settings",
+      "company_settings": "Company Settings"
+    },
+    "fixed_points": {
+      "fixed_points_name": "Fixed Points",
+      "no_points_created": "No fixed points created",
+      "create_new_fixed_point": "Create new fixed point",
+      "add": "Add",
+      "search": "Search",
+      "last_activity": "Last Activity",
+      "trap": "Trap",
+      "pluviometer": "Pluviometer",
+      "generic_point": "Generic Point",
+      "new": "New",
+      "name": "Name",
+      "coordinates": "Coordinates",
+      "coordinates_text": "Type in or click on the map to set the coordinates",
+      "please_fill": "* Please fill out all fields",
+      "collection_results": "Collection results",
+      "cumulative": "Cumulative",
+      "not_cumulative": "Not Cumulative",
+      "duration": "Duration (days)",
+      "install": "Install",
+      "read": "Read",
+      "all": "All",
+      "corresponding_areas": "Corresponding Areas",
+      "select_areas": "Select the areas",
+      "last_event": "Last event",
+      "pluviometry_chart": "Pluviometer Chart",
+      "installation": "Installation",
+      "uninstallation": "Uninstallation",
+      "renewal": "Renewal",
+      "traps": "Traps",
+      "pluviometers": "Pluviometers",
+      "generics": "Generics",
+      "calculation_method": "Calculation method",
+      "accumulative": "Accumulative",
+      "always_reset": "Always reset",
+      "deactivate_point": "Deactivate point",
+      "message_deactivate_point": "You will only deactivate this point, not delete it",
+      "cancel": "Cancel",
+      "pluviometry": "Pluviometry",
+      "accumulated": "Accumulated",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "week_abbreviation": "WK",
+      "monthly": "Monthly",
+      "yearly": "Year",
+      "confirm": "Confirm"
+    },
+    "report": {
+      "dropdownTitle": "Generate report",
+      "names": {
+        "detailed": "Detailed",
+        "monitoring_statistics": "Monitoring statistics",
+        "application_statistics": "Application statistics",
+        "fixedpoint": "Fixed Point",
+        "sample_analysis": "Sample Analysis"
+      }
+    }
+  },
+  "charts": {
+    "phenomenon_over_time": {
+      "title": "{{phenomenon.name}} Chart",
+      "subtitle": "Problem samples • {{area.name}}",
+      "legend": {
+        "phenological_stage": "Phenological Stage",
+        "damage": "Characteristic in Damage",
+        "characteristics": "Characteristics"
+      },
+      "select_all": "Select All",
+      "thresholds": {
+        "control": "Control",
+        "damage": "Damage"
+      },
+      "spray": {
+        "product": "PRODUCT",
+        "dose": "DOSAGE"
+      }
+    }
+  }
+}
