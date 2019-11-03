@@ -39,7 +39,8 @@
     "lint": "tslint 'src/**/*.{ts,tsx,js}' -p tsconfig.json",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook",
-    "svgr": "svgr --replace-attr-values \"none=inherit\" -d src/st-protector-icons/ icons/"
+    "dsm-storybook:publish": "dsm-storybook publish",
+    "dsm-storybook:preview": "dsm-storybook preview"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -74,10 +75,12 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
     "@hot-loader/react-dom": "^16.8.6",
+    "@invisionapp/dsm-storybook": "^0.0.109",
     "@storybook/addon-actions": "^5.2.3",
     "@storybook/addon-knobs": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addon-notes": "^5.0.11",
+    "@storybook/addon-options": "^5.2.5",
     "@storybook/addons": "^5.0.11",
     "@storybook/react": "^5.0.11",
     "@types/enzyme": "^3.10.3",
