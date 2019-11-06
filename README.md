@@ -31,7 +31,7 @@ Install node using NVM : https://github.com/creationix/nvm
 
 ## Install
 
-    $ git clone https://github.com/striderag/protector-user-client.git
+    $ git clone https://github.com/arthurherbert/webforgelabs-react-boilerplate.git
     $ cd webforgelabs-react-boilerplate
     $ yarn install
 

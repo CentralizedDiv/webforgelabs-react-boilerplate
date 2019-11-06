@@ -13,7 +13,7 @@ import Cookies from 'js-cookie';
 export const getAccessToken = () => {
   let token: string | null | undefined = localStorage.getItem('access_token') || sessionStorage.getItem('access_token');
   if (!token) {
-    token = Cookies.get('striderToken');
+    token = Cookies.get('token');
     if (token) {
       const tokens = JSON.parse(decodeURIComponent(token));
       token = tokens.access_token;

@@ -23,31 +23,44 @@ export const handleLoginRequest = action$ =>
   action$.pipe(
     ofType(AuthActionsTypes.LOGIN_REQUEST),
     map((action: Action<UserCredentials>) => action.payload),
-    exhaustMap((userCredentials: UserCredentials) =>
-      auth(userCredentials).pipe(
-        map(response => {
-          const token = response.data;
-          if (localStorage.getItem('remember') === 'true') {
-            localStorage.setItem('access_token', token.access_token);
-            localStorage.setItem('refresh_token', token.refresh_token);
-            setCookie('striderToken', token);
-          } else {
-            sessionStorage.setItem('access_token', token.access_token);
-            sessionStorage.setItem('refresh_token', token.refresh_token);
-          }
-          return LoginSuccess(token);
-        }),
-        catchError((error: LoginError) => of(LoginFailure(error)))
-      )
-    )
+    map((userCredentials: UserCredentials) => {
+      const token = {
+        access_token: '123',
+        refresh_token: '123',
+        expires_in: 0,
+        refresh_expires_in: 0,
+      };
+      localStorage.setItem('access_token', token.access_token);
+      localStorage.setItem('refresh_token', token.refresh_token);
+      sessionStorage.setItem('access_token', token.access_token);
+      sessionStorage.setItem('refresh_token', token.refresh_token);
+      setCookie('token', token);
+
+      return LoginSuccess(token);
+      // return auth(userCredentials).pipe(
+      //   map(response => {
+      //     const token = response.data;
+      //     if (localStorage.getItem('remember') === 'true') {
+      //       localStorage.setItem('access_token', token.access_token);
+      //       localStorage.setItem('refresh_token', token.refresh_token);
+      //       setCookie('token', token);
+      //     } else {
+      //       sessionStorage.setItem('access_token', token.access_token);
+      //       sessionStorage.setItem('refresh_token', token.refresh_token);
+      //     }
+      //     return LoginSuccess(token);
+      //   }),
+      //   catchError((error: LoginError) => of(LoginFailure(error)))
+      // );
+    })
   );
 
 export const handleLogoutRequest = action$ =>
   action$.pipe(
     ofType(AuthActionsTypes.LOGOUT_REQUEST),
     switchMap(async () => {
-      Cookies.remove('striderToken', {
-        domain: window.location.hostname === 'localhost' ? 'localhost' : '.strider.ag',
+      Cookies.remove('token', {
+        domain: window.location.hostname === 'localhost' ? 'localhost' : '.domain',
         path: '/',
       });
       if (localStorage.getItem('access_token')) {
@@ -74,7 +87,7 @@ export const handleCurrentUserFailure = action$ =>
 export const handleLoginSuccess = action$ =>
   action$.pipe(
     ofType(AuthActionsTypes.LOGIN_SUCCESS),
-    mergeMap(() => concat([LoadCompanies(), LoadCurrentUser()]))
+    mergeMap(() => concat([LoadCurrentUser()]))
   );
 
 export const handleLoadCurrentUser = action$ =>

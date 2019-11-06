@@ -1,6 +1,5 @@
 // tslint:disable
 import React from 'react';
-import * as Sentry from '@sentry/browser';
 import { SomethingWentWrong } from './something-went-wrong.container';
 
 export class ErrorBoundary extends React.Component<any, any> {
@@ -10,11 +9,7 @@ export class ErrorBoundary extends React.Component<any, any> {
   }
 
   componentDidCatch(error: any, errorInfo: any) {
-    Sentry.withScope(scope => {
-      scope.setExtras(errorInfo);
-      const eventId = Sentry.captureException(error);
-      this.setState({ errorInfo, eventId });
-    });
+    console.log(error, errorInfo);
   }
 
   render() {

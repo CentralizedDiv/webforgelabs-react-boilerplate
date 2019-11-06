@@ -6,7 +6,7 @@ describe('STMenu', () => {
   const props: IMenuProps = {
     SetCurrentLocation: jest.fn(),
     currentPath: 'company',
-    selectedCompany: 'strider',
+    selectedCompany: 'test',
     selectedProperty: 'soinco',
     collapsed: true,
     allCompanies: [],

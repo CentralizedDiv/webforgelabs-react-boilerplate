@@ -2,11 +2,6 @@
 @import './config/style/theme.less';
 @import './config/style/base.less';
 @import './config/style/antd-overrides.less';
-@import '~leaflet/dist/leaflet.css';
-@import '~leaflet-draw/dist/leaflet.draw.css';
-
-@nocache: `Math.random()`;
-@import 'http://icons.base.strider.ag/v4/strider-font-v4.css?@{nocache}';
 
 body {
   margin: 0;
@@ -60,11 +55,9 @@ span {
             align-self: center;
             justify-self: center;
           }
-
         }
 
         .ant-menu-item-selected {
-
           .st-menu-active {
             height: 24px;
             background-color: white;
@@ -76,9 +69,7 @@ span {
             fill: white;
           }
         }
-
       }
-
     }
   }
 

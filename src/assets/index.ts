@@ -1,7 +1,4 @@
 export const images = {
-  logo_green: require('assets/images/logo-strider-green.png'),
-  logo_protector: require('assets/images/logo-protector.png'),
-  logo_protector_s: require('assets/images/logo-protector-s.png'),
   fallbackimage: require('assets/images/fallback-image.png'),
   falbackImageMinor: require('assets/images/fallback-image-48x32.png'),
   farmshots: require('assets/images/farmshots.png'),

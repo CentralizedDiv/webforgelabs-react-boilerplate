@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import configureStore from './redux/config';
 import AuthRouter from './routes/auth.router';
 
-import 'config/numeral';
 import 'config/moment';
 import 'config/i18n';
 import 'main.less';

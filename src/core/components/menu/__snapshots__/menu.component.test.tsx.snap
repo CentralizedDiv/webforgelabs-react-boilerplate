@@ -4,10 +4,6 @@ exports[`STMenu renders properly 1`] = `
 <div
   className="st-menu"
 >
-  <img
-    alt="Protector Logo"
-    src="logo-protector-s.png"
-  />
   <Menu
     mode="inline"
     selectedKeys={

@@ -1,5 +1,5 @@
 {
-  "name": "protector-user-client",
+  "name": "webforgelabs-react-boilerplate",
   "version": "4.0.0",
   "private": true,
   "dependencies": {
@@ -47,8 +47,7 @@
       "src/**/*.{js,jsx,ts,tsx}",
       "!**/__stories__/**",
       "!src/index.tsx/",
-      "!src/serviceWorker.tsx/",
-      "!src/st-protector-icons/**"
+      "!src/serviceWorker.tsx/"
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"

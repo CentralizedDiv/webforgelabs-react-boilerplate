@@ -1,32 +1,26 @@
 import React, { useEffect } from 'react';
-import { DeepReadonly } from 'utility-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Menu, Icon } from 'antd';
 
-import { images } from 'assets';
 import { AppState } from 'redux/app-state';
 import { useTranslation } from 'react-i18next';
 import { Company } from 'entities/company/company.models';
 import { selectAllCompanies } from 'entities/company/company.reducer';
 
-interface IMenuItem {
+export interface MenuItem {
   readonly path: string;
   readonly title: string;
   readonly icon?: string | any;
-  readonly children?: ReadonlyArray<IMenuItem>;
+  readonly children?: ReadonlyArray<MenuItem>;
 }
-
-export type MenuItem = DeepReadonly<IMenuItem>;
-
-const protectorLogoS = images.logo_protector_s;
 
 const getBasePath = (fullPath: string): string =>
   fullPath.split('/').length <= 3
     ? '/' + fullPath.split('/')[1]
     : '/' + fullPath.split('/')[fullPath.split('/').length - 1];
 
-export interface IMenuProps {
+export interface MenuProps {
   readonly collapsed: boolean;
   readonly currentPath: string;
   readonly SetCurrentLocation;
@@ -34,7 +28,6 @@ export interface IMenuProps {
   readonly selectedCompany: string | null;
   readonly allCompanies: ReadonlyArray<Company>;
 }
-type MenuProps = DeepReadonly<IMenuProps>;
 
 export const STMenu: React.FC<MenuProps> = props => {
   const screensConfigMap: Map<string, MenuItem> = new Map();
@@ -58,7 +51,6 @@ export const STMenu: React.FC<MenuProps> = props => {
 
   return (
     <div className="st-menu">
-      <img src={protectorLogoS} alt="Protector Logo" />
       <Menu selectedKeys={[getBasePath(props.currentPath)]} mode="inline">
         {props.selectedProperty &&
           items.map(menuItem => (

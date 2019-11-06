@@ -38,7 +38,7 @@ export const FormInputs = props => {
     props.form.validateFields((_err: any, values: any) => {
       if (values.email_recover) {
         axios
-          .post(`https://api.base.strider.ag/v1/user-recovery`, { emailAddress: values.email_recover, language: 'en' })
+          .post(``, { emailAddress: values.email_recover, language: 'en' })
           .then(() => {
             setRecoverState({
               ...recover,
@@ -61,22 +61,23 @@ export const FormInputs = props => {
   const handleSubmit = e => {
     e.preventDefault();
     // tslint:disable-next-line: variable-name
-    props.form.validateFields((_err: any, values: UserCredentials) => {
-      if (!values.username) {
-        setUsernameError(true);
-      } else {
-        setUsernameError(false);
-      }
-      if (!values.password) {
-        setPasswordError(true);
-      } else {
-        setPasswordError(false);
-      }
-      localStorage.setItem('remember', values.remember.toString());
-      if (values.username && values.password) {
-        props.LoginRequest(values);
-      }
-    });
+    // props.form.validateFields((_err: any, values: UserCredentials) => {
+    //   if (!values.username) {
+    //     setUsernameError(true);
+    //   } else {
+    //     setUsernameError(false);
+    //   }
+    //   if (!values.password) {
+    //     setPasswordError(true);
+    //   } else {
+    //     setPasswordError(false);
+    //   }
+    //   localStorage.setItem('remember', values.remember.toString());
+    //   if (values.username && values.password) {
+    //     props.LoginRequest(values);
+    //   }
+    // });
+    props.LoginRequest({ username: 'asd', password: 'asd' });
   };
 
   return (

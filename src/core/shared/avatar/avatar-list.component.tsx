@@ -2,12 +2,7 @@ import React from 'react';
 import './avatar.styles.less';
 import { getInitials } from '../../../core/utils/functions';
 import STAvatar from './avatar.component';
-import styled from 'styled-components';
 import { Tooltip } from 'antd';
-
-const StyledList = styled.div`
-  display: flex;
-`;
 
 export interface ISTAvatarListProps {
   readonly names: ReadonlyArray<string>;
@@ -26,7 +21,7 @@ const STAvatarList: React.FC<ISTAvatarListProps> = ({ names, disabled, showLabel
   }
 
   const list = (
-    <StyledList>
+    <div>
       {namesList &&
         namesList.map(name => (
           <Tooltip key={name} title={name} placement={'top'}>
@@ -48,7 +43,7 @@ const STAvatarList: React.FC<ISTAvatarListProps> = ({ names, disabled, showLabel
           </STAvatar>
         </Tooltip>
       )}
-    </StyledList>
+    </div>
   );
 
   return showLabel && namesList && namesList.length < 2 ? (

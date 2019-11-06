@@ -82,7 +82,7 @@ const arrayOfColors: ReadonlyArray<UUID> = [
 
 export const setCookie = (key: string, value: any) => {
   const newCookie = `${key}=${encodeURIComponent(JSON.stringify(value))};domain=${
-    window.location.hostname === 'localhost' ? 'localhost' : '.strider.ag'
+    window.location.hostname === 'localhost' ? 'localhost' : '.domain'
   };path=/`;
   document.cookie = newCookie;
 };
